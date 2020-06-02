@@ -17,5 +17,94 @@
                TextColor="White" 
                HorizontalOptions="Center" 
                FontSize="Large"/>
+
+
+        <Label Text="There are a number of" 
+                   HorizontalOptions="Center"        
+                   TextColor="White"
+                 Margin="0,10,0,-10"
+               FontSize="20"/>
+
+        <Label Text="women that play" 
+                         HorizontalOptions="Center"      
+                         TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="important roles in major" 
+                        HorizontalOptions="Center"         
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="corporation's technology" 
+                        HorizontalOptions="Center"          
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="departments" 
+                         HorizontalOptions="Center"        
+                         TextColor="White"
+                 Margin="0,0,0,0"
+               FontSize="20"/>
+
+        <Button Text="Women in the Field"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                
+                    Padding="0,0,0,0"
+                    CornerRadius="15"
+                    WidthRequest="160"
+                    />
+
+        <Label Text="Learn more about the" 
+           HorizontalOptions="Center"          
+               TextColor="White"
+                Margin="0,30,0,-10"
+               FontSize="20"
+              />
+
+        <Label Text="women who made it " 
+           HorizontalOptions="Center"       
+               TextColor="White"
+               Margin="0,0,0,-10"
+               FontSize="20"
+              />
+
+        <Label Text="possible for females to" 
+           HorizontalOptions="Center"          
+               TextColor="White"
+              Margin="0,0,0,-10"
+               FontSize="20"
+              />
+
+        <Label Text="enter I.T." 
+           HorizontalOptions="Center"           
+               TextColor="White"
+                 Margin="0,0,0,0"
+               FontSize="20"
+              />
+
+        <Button Text="Top 50 Women in I.T."
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+               
+                    Margin="0,0,0,35"
+                    CornerRadius="15"
+                    WidthRequest="167"
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
     </StackLayout>
 </ContentPage>

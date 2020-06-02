@@ -34,3 +34,21 @@ C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.deps.json
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.dll
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.pdb
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csprojAssemblyReference.cache
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\AcademicsPage.xaml.g.cs
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\CareersPage.xaml.g.cs
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ProfessionalResourcesPage.xaml.g.cs
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\WomenInITPage.xaml.g.cs
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.AssemblyInfoInputs.cache
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.AssemblyInfo.cs
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csproj.CoreCompileInputs.cache
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
+C:\Users\busin\Documents\Visual Studio 2019\Safa\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb

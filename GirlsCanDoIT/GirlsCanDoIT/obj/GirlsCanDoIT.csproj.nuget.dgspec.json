@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {}
+    "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+    "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "projectUniqueName": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
         "projectName": "GirlsCanDoIT",
-        "projectPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
-        "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
+        "projectPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\safaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

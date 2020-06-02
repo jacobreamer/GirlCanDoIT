@@ -1045,24 +1045,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\safaa\\.nuget\\packages\\": {},
+    "C:\\Users\\busin\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
       "projectName": "GirlsCanDoIT.iOS",
-      "projectPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
-      "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\obj\\",
+      "projectPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+      "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\safaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1076,8 +1076,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
-              "projectPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
+            "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+              "projectPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
             }
           }
         }

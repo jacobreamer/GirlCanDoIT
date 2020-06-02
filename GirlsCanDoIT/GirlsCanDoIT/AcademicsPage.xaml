@@ -15,7 +15,64 @@
             <Label Text="Academics" 
                TextColor="White" 
                HorizontalOptions="Center" 
-               FontSize="Large"/>
+               FontSize="Large"
+                   Margin="0,0,0,50"
+                   />
+
+
+
+
+            <Label Text="Each state has " 
+                   HorizontalOptions="Center"
+          FontAttributes="Bold"
+                   TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="25"/>
+
+            <Label Text=" educational" 
+                         HorizontalOptions="Center"
+           FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="25"/>
+
+            <Label Text="  opportunities for you to " 
+                        HorizontalOptions="Center"
+          FontAttributes="Bold"
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="25"/>
+
+            <Label Text="  jump start your career in " 
+                        HorizontalOptions="Center"
+           FontAttributes="Bold"
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="25"/>
+
+            <Label Text=" the technology field. " 
+                         HorizontalOptions="Center"
+           FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="25"/>
+
+            <Label Text=" Just select a state you would " 
+                         HorizontalOptions="Center"
+          FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="25"/>
+
+            <Label Text="like to learn more about!"
+                          HorizontalOptions="Center"
+          FontAttributes="Bold"
+                          TextColor="White"
+                 Margin="0,0,0,200"
+               FontSize="25"/>
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -16,6 +16,71 @@
         <Label Text="Professional Resources" 
                TextColor="White" 
                HorizontalOptions="Center" 
-               FontSize="Large"/>
+               FontSize="Large"
+               Margin="0,0,0,50"
+               />
+
+
+        <Label Text="Many states have" 
+                   HorizontalOptions="Center"
+          FontAttributes="Bold"
+                   TextColor="White"
+                 Margin="0,-30,0,-10"
+               FontSize="20"/>
+
+        <Label Text="organizations that" 
+                         HorizontalOptions="Center"
+           FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="are involved in" 
+                        HorizontalOptions="Center"
+          FontAttributes="Bold"
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="women pursuing a" 
+                        HorizontalOptions="Center"
+           FontAttributes="Bold"
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="career in I.T." 
+                         HorizontalOptions="Center"
+           FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,0"
+               FontSize="20"/>
+
+        <Picker x:Name="picker"
+        Title="Select a State"
+        TitleColor="White"
+                    FontSize="20"
+                    Margin="110,30,100,0"
+                    >
+
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Michigan</x:String>
+                    <x:String>Ohio</x:String>
+                    <x:String>Indiania</x:String>
+                    <x:String>Wisconsin</x:String>
+                    <x:String>New York</x:String>
+                    <x:String>Washington</x:String>
+                    <x:String>Maryland</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+
+
+
+
+
+
     </StackLayout>
 </ContentPage>

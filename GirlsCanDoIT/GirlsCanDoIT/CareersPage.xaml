@@ -16,6 +16,84 @@
         <Label Text="Careers"
                TextColor="White" 
                HorizontalOptions="Center" 
-               FontSize="Large"/>
+               FontSize="Large"
+               Margin="0,0,0,50"
+               />
+
+
+        <Label Text="There is an endless" 
+                   HorizontalOptions="Center"
+          FontAttributes="Bold"
+                   TextColor="White"
+                 Margin="0,-30,0,-10"
+               FontSize="20"/>
+
+        <Label Text="amount of careers to" 
+                         HorizontalOptions="Center"
+           FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="choose from when it" 
+                        HorizontalOptions="Center"
+          FontAttributes="Bold"
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="comes to technology. Pick" 
+                        HorizontalOptions="Center"
+           FontAttributes="Bold"
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="a career off the list to learn" 
+                         HorizontalOptions="Center"
+           FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+        <Label Text="more about it!" 
+                         HorizontalOptions="Center"
+          FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,0"
+               FontSize="20"/>
+
+        <Picker x:Name="picker"
+        Title="Select a Career"
+        TitleColor="White"
+                    FontSize="20"
+                    Margin="110,30,90,0"
+                    >
+
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Software Developer</x:String>
+                    <x:String>IT Manager</x:String>
+                    <x:String>Web Developer</x:String>
+                    <x:String>Database Administrator</x:String>
+                    <x:String>Information Security Analyst</x:String>
+                    <x:String>Computer Systems Analyst</x:String>
+                    <x:String>Computer Network Architect</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+
+        <Button Text="Learn More!"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+               
+                    Margin="0,0,0,0"
+                    CornerRadius="15"
+                    WidthRequest="135"
+                    />
+
+
+
     </StackLayout>
 </ContentPage>
