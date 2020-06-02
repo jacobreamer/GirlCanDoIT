@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj": {}
+    "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj": {
+    "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+        "projectUniqueName": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
         "projectName": "GirlsCanDoIT.Android",
-        "projectPath": "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+        "projectPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
         "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\obj\\",
+        "outputPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
-                "projectPath": "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
+              "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+                "projectPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+    "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "projectUniqueName": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
         "projectName": "GirlsCanDoIT",
-        "projectPath": "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "projectPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
         "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\safaa\\OneDrive\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
+        "outputPath": "C:\\Users\\safaa\\Desktop\\Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
