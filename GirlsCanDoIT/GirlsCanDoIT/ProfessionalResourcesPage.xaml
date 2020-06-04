@@ -16,7 +16,7 @@
         Margin="20">
         <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.info.png}" 
                 HeightRequest="70" 
-                Margin="10"
+                Margin="11"
                />
 
             
