@@ -11,18 +11,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\acm.jpg" />
+    <None Remove="Images\acm_women.jpg" />
+    <None Remove="Images\aicpro.png" />
     <None Remove="Images\bg2.jpg" />
     <None Remove="Images\book.png" />
     <None Remove="Images\info.png" />
     <None Remove="Images\laptop.png" />
+    <None Remove="Images\ncwits.png" />
     <None Remove="Images\woman.png" />
+    <None Remove="Images\_acm.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\acm.jpg" />
+    <EmbeddedResource Include="Images\acm_women.jpg" />
+    <EmbeddedResource Include="Images\aicpro.png" />
     <EmbeddedResource Include="Images\bg2.jpg" />
     <EmbeddedResource Include="Images\book.png" />
     <EmbeddedResource Include="Images\info.png" />
     <EmbeddedResource Include="Images\laptop.png" />
+    <EmbeddedResource Include="Images\ncwits.png" />
     <EmbeddedResource Include="Images\woman.png" />
   </ItemGroup>
 

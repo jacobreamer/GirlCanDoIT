@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj": {}
+    "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj": {
+    "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
         "projectName": "GirlsCanDoIT.Android",
-        "projectPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
-        "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT.Android\\obj\\",
+        "projectPath": "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+        "packagesPath": "C:\\Users\\Jacob Reamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jacob Reamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
-                "projectPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
+              "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+                "projectPath": "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
               }
             }
           }
@@ -54,20 +54,21 @@
         }
       }
     },
-    "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+    "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "projectUniqueName": "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
         "projectName": "GirlsCanDoIT",
-        "projectPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
-        "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\busin\\Documents\\Visual Studio 2019\\Safa\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
+        "projectPath": "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "packagesPath": "C:\\Users\\Jacob Reamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jacob Reamer\\Documents\\Summer Project\\Final Project\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jacob Reamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

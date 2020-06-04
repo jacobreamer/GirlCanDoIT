@@ -8,12 +8,20 @@
              x:Class="GirlsCanDoIT.ProfessionalResourcesPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
 
-    <StackLayout Margin="20">
+
+    <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <StackLayout 
+        
+       
+        Margin="20">
         <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.info.png}" 
                HeightRequest="70" 
                Margin="10"
-               BackgroundColor="Transparent"/>
-        <Label Text="Professional Resources" 
+               />
+
+            
+
+            <Label Text="Professional Resources" 
                TextColor="White" 
                HorizontalOptions="Center" 
                FontSize="Large"
@@ -77,10 +85,123 @@
         </Picker>
 
 
+        <Button Text="Learn More"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+               
+                    Margin="30"
+                    CornerRadius="15"
+                    WidthRequest="120"
+                    />
+
+            
 
 
+            <Label Text="There are also" 
+                   HorizontalOptions="Center"
+          FontAttributes="Bold"
+                   TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+            <Label Text="national resources for" 
+                         HorizontalOptions="Center"
+           FontAttributes="Bold"
+                         TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+            <Label Text="you to view, such as" 
+                        HorizontalOptions="Center"
+          FontAttributes="Bold"
+                        TextColor="White"
+                 Margin="0,0,0,-10"
+               FontSize="20"/>
+
+            <Label Text="the links listed below" 
+                        HorizontalOptions="Center"
+           FontAttributes="Bold"
+                        TextColor="White"
+                 Margin="0,0,0,0"
+               FontSize="20"/>
 
 
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
+                     />
 
-    </StackLayout>
+            <Label Text="Aspirations in Computing" 
+               TextColor="White" 
+                HorizontalOptions="Center"
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,50,0,-10"
+               />
+            
+            
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.aicpro.png}" 
+               HeightRequest="150" 
+                     
+               Margin="30"
+               />
+
+            <Label Text="Association for Computer Machinery" 
+               TextColor="White" 
+                HorizontalOptions="Center"
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,50,0,-10"
+               />
+
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm.jpg}" 
+               HeightRequest="150" 
+                     
+               Margin="30"
+               />
+
+            <Label Text="National Center for Women" 
+               TextColor="White" 
+                HorizontalOptions="Center"
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,50,0,0"
+               />
+
+            <Label Text="and Information Technology" 
+               TextColor="White" 
+                HorizontalOptions="Center"
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,0,0,-10"
+               />
+
+
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.ncwits.png}" 
+               HeightRequest="150" 
+                     
+               Margin="30"
+               />
+
+            <Label Text="Association for Computing Machinery's" 
+               TextColor="White" 
+                HorizontalOptions="Center"
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,50,0,0"
+               />
+            <Label Text="Council on Women in Computing" 
+               TextColor="White" 
+                HorizontalOptions="Center"
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,0,0,-10"
+               />
+
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm_women.jpg}" 
+               HeightRequest="150" 
+                 
+               Margin="30"
+               />
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
