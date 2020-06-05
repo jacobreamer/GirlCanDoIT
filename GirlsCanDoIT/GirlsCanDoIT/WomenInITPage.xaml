@@ -10,7 +10,7 @@
 
     <StackLayout Margin="20">
         <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.woman.png}" 
-               HeightRequest="70" 
+               HeightRequest="40" 
                Margin="10"
                BackgroundColor="Transparent"/>
         <Label Text="Women in IT" 
