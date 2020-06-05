@@ -12,7 +12,7 @@
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.book.png}"
                HeightRequest="70" 
                Margin="10"/>
-            <Label Text="Academics" 
+            <Label Text="Academics, Safa" 
                TextColor="White" 
                HorizontalOptions="Center" 
                FontSize="Large"
