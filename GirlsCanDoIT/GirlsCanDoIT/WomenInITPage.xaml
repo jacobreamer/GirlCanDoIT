@@ -16,7 +16,7 @@
         <Label Text="Women in IT" 
                TextColor="White" 
                HorizontalOptions="Center" 
-               FontSize="Large"/>
+               FontSize="60"/>
 
 
         <Label Text="There are a number of women that play important roles in major corporation's technoolgy departments" 
