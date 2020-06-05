@@ -68,7 +68,7 @@
                           HorizontalOptions="Center"
           FontAttributes="Bold"
                           TextColor="White"
-                 Margin="0,0,0,200"
+                 Margin="0,0,0,0"
                FontSize="25"/>
 
 
