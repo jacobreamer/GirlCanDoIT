@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {}
+    "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+    "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "projectUniqueName": "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
         "projectName": "GirlsCanDoIT",
-        "projectPath": "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "projectPath": "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
         "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
+        "outputPath": "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

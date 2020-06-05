@@ -1975,11 +1975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+      "projectUniqueName": "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
       "projectName": "GirlsCanDoIT.Android",
-      "projectPath": "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+      "projectPath": "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
       "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\obj\\",
+      "outputPath": "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2000,8 +2000,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
-              "projectPath": "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
+            "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+              "projectPath": "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
             }
           }
         }

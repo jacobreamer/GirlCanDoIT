@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hNSkleliFW0D4K5LeHLQxLosjOAdR+O/CscY6Lo6rl1sB7y/SEO2BryG8ouDmQcuUqPL0BSIb33VMedl9ZQ/Rw==",
+  "dgSpecHash": "Z2fFieBxXZqjMiDt7MaUQa8RPyR8DJjxMmaKiFoxd8Ve2tSL5H6Sf9mlD1kKBXRZFUGJcnvPk+BPIPIYbXCPXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\safaa\\source\\repos\\jacobreamer\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+  "projectFilePath": "C:\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\safaa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\safaa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
