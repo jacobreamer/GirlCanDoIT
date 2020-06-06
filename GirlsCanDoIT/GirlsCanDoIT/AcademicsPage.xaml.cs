@@ -16,5 +16,11 @@ namespace GirlsCanDoIT
         {
             InitializeComponent();
         }
+
+        private void statePicker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var state = statePicker.Items[statePicker.SelectedIndex];
+            DisplayAlert(state, "Selected value", "OK");
+        }
     }
 }

@@ -70,3 +70,21 @@ C:\Users\Jacob Reamer\Documents\Summer Project\Final Project\GirlsCanDoIT\GirlsC
 C:\Users\Jacob Reamer\Documents\Summer Project\Final Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
 C:\Users\Jacob Reamer\Documents\Summer Project\Final Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
 C:\Users\Jacob Reamer\Documents\Summer Project\Final Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.deps.json
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.dll
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.pdb
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csprojAssemblyReference.cache
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\AcademicsPage.xaml.g.cs
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\CareersPage.xaml.g.cs
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ProfessionalResourcesPage.xaml.g.cs
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\WomenInITPage.xaml.g.cs
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.AssemblyInfoInputs.cache
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.AssemblyInfo.cs
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csproj.CoreCompileInputs.cache
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
+C:\GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
