@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GirlsCanDoIT.Android", "Gir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GirlsCanDoIT.iOS", "GirlsCanDoIT\GirlsCanDoIT.iOS\GirlsCanDoIT.iOS.csproj", "{73CD4A62-41B8-40C1-90D1-067DA1D28F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GirlsCanDoIT", "GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT.csproj", "{5AA5F4F7-FDBC-4C43-888F-4D7955E7791E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GirlsCanDoIT", "GirlsCanDoIT\GirlsCanDoIT\GirlsCanDoIT.csproj", "{5AA5F4F7-FDBC-4C43-888F-4D7955E7791E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08BA84E2-2C32-48E5-B5A2-3F6D401F54FB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

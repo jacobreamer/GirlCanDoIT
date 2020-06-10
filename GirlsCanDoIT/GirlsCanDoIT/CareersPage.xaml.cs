@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GirlsCanDoIT.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,14 @@ namespace GirlsCanDoIT
         public CareersPage()
         {
             InitializeComponent();
+
+        }
+
+        private void careerPicker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var career = careerPicker.Items[careerPicker.SelectedIndex];
+            DisplayAlert(career, "Selected value", "OK");
+            
         }
     }
 }

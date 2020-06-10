@@ -14,7 +14,7 @@
                    Margin="10"/>
 
             <Label Text="Academics" 
-                   TextColor="White" 
+                   TextColor="White"
                    HorizontalOptions="Center" 
                    FontSize="Large"
                    FontAttributes="Bold"
@@ -28,23 +28,10 @@
 
             <Picker x:Name="statePicker"
                     Title="Select a State"
-                    TitleColor="White"
                     FontSize="20"
                     Margin="110,30,100,0"
-                    SelectedIndexChanged="statePicker_SelectedIndexChanged">
-
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Michigan</x:String>
-                        <x:String>Ohio</x:String>
-                        <x:String>Indiania</x:String>
-                        <x:String>Wisconsin</x:String>
-                        <x:String>New York</x:String>
-                        <x:String>Washington</x:String>
-                        <x:String>Maryland</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
+                    BackgroundColor="white"
+                    SelectedIndexChanged="statePicker_SelectedIndexChanged"/>
 
             <Button Text="Learn More"
                     VerticalOptions="CenterAndExpand"
