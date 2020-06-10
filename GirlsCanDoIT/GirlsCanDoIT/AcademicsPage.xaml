@@ -10,68 +10,48 @@
     <ContentPage.Content>
         <StackLayout Margin="20">
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.book.png}"
-               HeightRequest="70" 
-               Margin="10"/>
-            <Label Text="Academics, Safa" 
-               TextColor="White" 
-               HorizontalOptions="Center" 
-               FontSize="Large"
-                   Margin="0,0,0,50"
-                   />
+                   HeightRequest="70" 
+                   Margin="10"/>
 
+            <Label Text="Academics" 
+                   TextColor="White" 
+                   HorizontalOptions="Center" 
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,50"/>
 
+            <Label Text="Each state has educational opportunities for you to jump start your career in the technology field.&#x0a;Just select a state you would like to learn more about!" 
+                   TextColor="White" 
+                   FontSize="25" 
+                   FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center"/>
 
+            <Picker x:Name="statePicker"
+                    Title="Select a State"
+                    TitleColor="White"
+                    FontSize="20"
+                    Margin="110,30,100,0"
+                    SelectedIndexChanged="statePicker_SelectedIndexChanged">
 
-            <Label Text="Each state has " 
-                   HorizontalOptions="Center"
-          FontAttributes="Bold"
-                   TextColor="White"
-                 Margin="0,0,0,-10"
-               FontSize="25"/>
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Michigan</x:String>
+                        <x:String>Ohio</x:String>
+                        <x:String>Indiania</x:String>
+                        <x:String>Wisconsin</x:String>
+                        <x:String>New York</x:String>
+                        <x:String>Washington</x:String>
+                        <x:String>Maryland</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
 
-            <Label Text=" educational" 
-                         HorizontalOptions="Center"
-           FontAttributes="Bold"
-                         TextColor="White"
-                 Margin="0,0,0,-10"
-               FontSize="25"/>
-
-            <Label Text="  opportunities for you to " 
-                        HorizontalOptions="Center"
-          FontAttributes="Bold"
-                        TextColor="White"
-                 Margin="0,0,0,-10"
-               FontSize="25"/>
-
-            <Label Text="  jump start your career in " 
-                        HorizontalOptions="Center"
-           FontAttributes="Bold"
-                        TextColor="White"
-                 Margin="0,0,0,-10"
-               FontSize="25"/>
-
-            <Label Text=" the technology field. " 
-                         HorizontalOptions="Center"
-           FontAttributes="Bold"
-                         TextColor="White"
-                 Margin="0,0,0,-10"
-               FontSize="25"/>
-
-            <Label Text=" Just select a state you would " 
-                         HorizontalOptions="Center"
-          FontAttributes="Bold"
-                         TextColor="White"
-                 Margin="0,0,0,-10"
-               FontSize="25"/>
-
-            <Label Text="like to learn more about!"
-                          HorizontalOptions="Center"
-          FontAttributes="Bold"
-                          TextColor="White"
-                 Margin="0,0,0,0"
-               FontSize="25"/>
-
-
+            <Button Text="Learn More"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Margin="30"
+                    CornerRadius="15"
+                    WidthRequest="120"/>
 
         </StackLayout>
     </ContentPage.Content>

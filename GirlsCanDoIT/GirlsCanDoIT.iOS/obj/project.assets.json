@@ -1045,24 +1045,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\busin\\.nuget\\packages\\": {},
+    "C:\\Users\\safaa\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\busin\\Documents\\Summer Internship\\june5\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\safaa\\Source\\Repos\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
       "projectName": "GirlsCanDoIT.iOS",
-      "projectPath": "C:\\Users\\busin\\Documents\\Summer Internship\\june5\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
-      "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\busin\\Documents\\Summer Internship\\june5\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\obj\\",
+      "projectPath": "C:\\Users\\safaa\\Source\\Repos\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+      "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\safaa\\Source\\Repos\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\safaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1076,8 +1076,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\busin\\Documents\\Summer Internship\\june5\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
-              "projectPath": "C:\\Users\\busin\\Documents\\Summer Internship\\june5\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
+            "C:\\Users\\safaa\\Source\\Repos\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+              "projectPath": "C:\\Users\\safaa\\Source\\Repos\\GirlCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
             }
           }
         }
