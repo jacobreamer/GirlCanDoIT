@@ -14,12 +14,12 @@
         
        
         Margin="20">
-        <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.info.png}" 
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.info.png}" 
                 HeightRequest="70" 
                 Margin="11"
                />
 
-            
+
 
             <Label Text="Professional Resources" 
                TextColor="White" 
@@ -38,30 +38,30 @@
                Margin="70,-30,70,-10"
                FontSize="20"/>
 
-        
 
-        <Picker x:Name="picker"
+
+            <Picker x:Name="picker"
                     Title="Select a State"
                     TitleColor="White"
                     FontSize="20"
                     Margin="110,30,100,0"
                     >
 
-            <Picker.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Michigan</x:String>
-                    <x:String>Ohio</x:String>
-                    <x:String>Indiania</x:String>
-                    <x:String>Wisconsin</x:String>
-                    <x:String>New York</x:String>
-                    <x:String>Washington</x:String>
-                    <x:String>Maryland</x:String>
-                </x:Array>
-            </Picker.ItemsSource>
-        </Picker>
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Michigan</x:String>
+                        <x:String>Ohio</x:String>
+                        <x:String>Indiania</x:String>
+                        <x:String>Wisconsin</x:String>
+                        <x:String>New York</x:String>
+                        <x:String>Washington</x:String>
+                        <x:String>Maryland</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
 
 
-        <Button Text="Learn More"
+            <Button Text="Learn More"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Margin="30"
@@ -69,7 +69,7 @@
                     WidthRequest="120"
                     />
 
-            
+
 
 
             <Label Text="There are also national resources for you to view, such as the links listed below" 
@@ -81,51 +81,91 @@
                    Margin="70,0,70,-10"
                    FontSize="20"/>
 
-            
+
 
 
             <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
                      />
 
-            <Label Text="Aspirations in Computing" 
-                   TextColor="White" 
-                   HorizontalOptions="Center"
-                   FontSize="20"
-                   FontAttributes="Bold"
+
+            <Label
+                   
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
                    Margin="0,50,0,-10"
-               />
-            
-            
+                >
+
+                <Label.FormattedText>
+
+                    <FormattedString>
+                        <Span Text=" "
+                              />
+                        <local:HyperlinkSpan Text="Aspirations in Computing"
+                                             
+                                         Url="https://www.aspirations.org/" 
+                                             />
+
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.aicpro.png}" 
                HeightRequest="150" 
                      
                Margin="30"
                />
 
-            <Label Text="Association for Computer Machinery" 
-                   TextColor="White" 
-                   HorizontalOptions="Center"
-                   FontSize="20"
-                   FontAttributes="Bold"
+
+
+            <Label
+                   
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
                    Margin="0,50,0,-10"
-               />
+                >
+
+                <Label.FormattedText>
+
+                    <FormattedString>
+                        <Span Text=" "
+                              />
+                        <local:HyperlinkSpan Text="Association for Computer Machinery"
+                                             
+                                         Url="https://www.acm.org/" 
+                                             />
+
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm.jpg}" 
                   HeightRequest="150"   
                   Margin="30"
                />
 
-            <Label Text="National Center for Women and Information Technology" 
+
+            <Label
+                   
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
-                   TextColor="White" 
-                   HorizontalOptions="Center"
-                   FontSize="20"
-                   FontAttributes="Bold"
-                   Margin="30,50,30,-10"
-               />
+                   Margin="0,50,0,-10"
+                >
 
-           
+                <Label.FormattedText>
+
+                    <FormattedString>
+                        <Span Text=" "
+                              />
+                        <local:HyperlinkSpan Text="National Center for Women and Information Technology"
+                                             
+                                         Url="https://www.ncwit.org/" 
+                                             />
+
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
 
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.ncwits.png}" 
@@ -133,31 +173,35 @@
                    Margin="30"
                />
 
-            <Label Text="Association for Computing Machinery's Council on Women in Computing" 
-                   TextColor="White" 
+
+            <Label
+                   
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
-                   HorizontalOptions="Center"
-                   FontSize="20"
-                   FontAttributes="Bold"
-                   Margin="15,50,15,-10"
-               />
+                   Margin="0,50,0,-10"
+                >
+
+                <Label.FormattedText>
+
+                    <FormattedString>
+                        <Span Text=" "
+                              />
+                        <local:HyperlinkSpan Text="Association for Computing Machinery's Council on Women in Computing"
+                                             
+                                         Url="https://women.acm.org/" 
+                                             />
+
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm_women.jpg}" 
                    HeightRequest="150"         
                    Margin="30"
                />
 
 
-            <Label>
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Alternatively, click " />
-                        <local:HyperlinkSpan Text="here"
-                                         Url="https://docs.microsoft.com/appcenter/" />
-                        <Span Text=" to view AppCenter documentation." />
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
 
         </StackLayout>
     </ScrollView>

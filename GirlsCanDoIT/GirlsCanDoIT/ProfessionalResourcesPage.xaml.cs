@@ -13,7 +13,7 @@ namespace GirlsCanDoIT
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfessionalResourcesPage : ContentPage
     { // Launcher.OpenAsync is provided by Xamarin.Essentials.
-        
+
         public ProfessionalResourcesPage()
         {
             InitializeComponent();
@@ -33,10 +33,16 @@ namespace GirlsCanDoIT
             set { SetValue(UrlProperty, value); }
         }
 
+        [Obsolete]
         public HyperlinkSpan()
         {
             TextDecorations = TextDecorations.Underline;
-            TextColor = Color.Blue;
+            TextColor = Color.White;
+            FontSize = 25;
+
+
+
+
             GestureRecognizers.Add(new TapGestureRecognizer
             {
                 // Launcher.OpenAsync is provided by Xamarin.Essentials.
