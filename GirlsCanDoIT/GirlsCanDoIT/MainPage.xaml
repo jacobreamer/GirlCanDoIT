@@ -59,6 +59,20 @@
                TextColor="White" 
                HorizontalOptions="Center" 
                FontSize="Large"/>
+
+        <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.facebook3.png}"
+               Margin="0,30,0,0"
+               >
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                 Command="{Binding ClickCommand}"
+                                          CommandParameter="https://www.facebook.com/pages/category/Artist/Girls-Can-Do-It-1521880821462566/" />
+
+            </Image.GestureRecognizers>
+            
+        </Image>
+        
+        
     </StackLayout>
 
 </ContentPage>

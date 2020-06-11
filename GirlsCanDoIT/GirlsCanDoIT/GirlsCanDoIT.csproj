@@ -16,6 +16,8 @@
     <None Remove="Images\aicpro.png" />
     <None Remove="Images\bg2.jpg" />
     <None Remove="Images\book.png" />
+    <None Remove="Images\facebook2.png" />
+    <None Remove="Images\facebook3.png" />
     <None Remove="Images\info.png" />
     <None Remove="Images\laptop.png" />
     <None Remove="Images\ncwits.png" />
@@ -29,6 +31,8 @@
     <EmbeddedResource Include="Images\aicpro.png" />
     <EmbeddedResource Include="Images\bg2.jpg" />
     <EmbeddedResource Include="Images\book.png" />
+    <EmbeddedResource Include="Images\facebook2.png" />
+    <EmbeddedResource Include="Images\facebook3.png" />
     <EmbeddedResource Include="Images\info.png" />
     <EmbeddedResource Include="Images\laptop.png" />
     <EmbeddedResource Include="Images\ncwits.png" />

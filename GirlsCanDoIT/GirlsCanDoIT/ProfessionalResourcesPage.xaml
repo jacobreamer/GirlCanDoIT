@@ -202,6 +202,19 @@
                />
 
 
+           
+
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.facebook2.png}">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                 Command="{Binding ClickCommand}"
+                                          CommandParameter="https://www.facebook.com/pages/category/Artist/Girls-Can-Do-It-1521880821462566/" />
+                
+                </Image.GestureRecognizers>
+            </Image>
+            
+            
+
 
         </StackLayout>
     </ScrollView>

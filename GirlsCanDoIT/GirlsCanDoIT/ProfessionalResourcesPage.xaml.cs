@@ -20,6 +20,16 @@ namespace GirlsCanDoIT
             BindingContext = this;
         }
 
+        public void facebookButton_Clicked(object sender, EventArgs e)
+        {
+          
+        }
+
+        [Obsolete]
+        public ICommand ClickCommand => new Command<string>((url) =>
+        {
+            Device.OpenUri(new System.Uri(url));
+        });
 
     }
     public class HyperlinkSpan : Span

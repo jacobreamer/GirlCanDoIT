@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
+using System.Windows.Input;
+using Xamarin.Forms.Xaml;
 
 namespace GirlsCanDoIT
 {
@@ -16,7 +19,17 @@ namespace GirlsCanDoIT
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = this;
         }
+
+
+        [Obsolete]
+        public ICommand ClickCommand => new Command<string>((url) =>
+        {
+            Device.OpenUri(new System.Uri(url));
+        });
+
+
 
         private void BooksButton_Clicked(object sender, EventArgs e)
         {
@@ -37,5 +50,6 @@ namespace GirlsCanDoIT
         {
             Navigation.PushAsync(new ProfessionalResourcesPage());
         }
+
     }
 }
