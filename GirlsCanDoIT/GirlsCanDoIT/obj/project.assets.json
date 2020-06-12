@@ -68,7 +68,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -604,25 +604,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jacob Reamer\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\safaa\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+      "projectUniqueName": "C:\\Users\\safaa\\Desktop\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
       "projectName": "GirlsCanDoIT",
-      "projectPath": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
-      "packagesPath": "C:\\Users\\Jacob Reamer\\.nuget\\packages\\",
-      "outputPath": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
+      "projectPath": "C:\\Users\\safaa\\Desktop\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+      "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\safaa\\Desktop\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jacob Reamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\safaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

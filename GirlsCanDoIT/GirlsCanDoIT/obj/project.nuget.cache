@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iV0edY8y8uoM7GW3zhjkMfoxDN/mMTcpFxhI8zdakZxONPvqFGtyjDvZflyHfhTNG8GEAhopBuSjvx7A6l5eGQ==",
+  "dgSpecHash": "PMk1FqX3JVxJ+ugHV8ELxvnRnrxyH5i5MZBKr/W0Xl2xPXnkiY4z788/X05xRFFS0SsId6mutRloEGgKw4iaMg==",
   "success": true,
-  "projectFilePath": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+  "projectFilePath": "C:\\Users\\safaa\\Desktop\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Jacob Reamer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\safaa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\safaa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\safaa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],

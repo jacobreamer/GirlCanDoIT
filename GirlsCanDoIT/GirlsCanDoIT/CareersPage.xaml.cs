@@ -17,6 +17,11 @@ namespace GirlsCanDoIT
         {
             InitializeComponent();
 
+            foreach (string allCareers in Careers.CareersArray)
+            {
+                careerPicker.Items.Add(allCareers);
+            }
+
         }
 
         private void careerPicker_SelectedIndexChanged(object sender, EventArgs e)

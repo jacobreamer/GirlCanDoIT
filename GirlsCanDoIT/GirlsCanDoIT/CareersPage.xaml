@@ -7,55 +7,42 @@
              mc:Ignorable="d"
              x:Class="GirlsCanDoIT.CareersPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
-
-    <StackLayout Margin="20">
-        <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.laptop.png}" 
-               HeightRequest="70" 
-               Margin="10"
-               BackgroundColor="Transparent"/>
+    
+    <ScrollView>
+        <StackLayout Margin="20">
+            
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.laptop.png}" 
+                   HeightRequest="70" 
+                   Margin="10"
+                   BackgroundColor="Transparent"/>
         
-        <Label Text="Careers"
-               TextColor="White" 
-               HorizontalOptions="Center" 
-               FontSize="Large"
-               FontAttributes="Bold"
-               Margin="0,0,0,50"/>
+            <Label Text="Careers"
+                   TextColor="White" 
+                   HorizontalOptions="Center" 
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,50"/>
 
-        <Label Text="There is an endless amount of careers to choose from when it comes to technology.&#x0a;Pick a career off the list to learn more about it!" 
-               TextColor="White" 
-               FontSize="25"
-               FontAttributes="Bold" 
-               HorizontalTextAlignment="Center"/>
+            <Label Text="There is an endless amount of careers to choose from when it comes to technology.&#x0a;Pick a career off the list to learn more about it!" 
+                   TextColor="White" 
+                   FontSize="25"
+                   FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center"/>
 
-        <Picker x:Name="careerPicker"
-                Title="Select a Career"
-                TitleColor="White"
-                FontSize="20"
-                Margin="110,30,90,0"
-                SelectedIndexChanged="careerPicker_SelectedIndexChanged">
+            <Picker x:Name="careerPicker"
+                    Title="Select a Career"
+                    FontSize="20"
+                    Margin="110,30,90,0"
+                    BackgroundColor="white"
+                    SelectedIndexChanged="careerPicker_SelectedIndexChanged"/>
 
-            <Picker.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Software Developer</x:String>
-                    <x:String>IT Manager</x:String>
-                    <x:String>Web Developer</x:String>
-                    <x:String>Database Administrator</x:String>
-                    <x:String>Information Security Analyst</x:String>
-                    <x:String>Computer Systems Analyst</x:String>
-                    <x:String>Computer Network Architect</x:String>
-                </x:Array>
-            </Picker.ItemsSource>
-        </Picker>
+            <Button Text="Learn More!"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Margin="0,0,0,0"
+                    CornerRadius="15"
+                    WidthRequest="135"/>
 
-
-        <Button Text="Learn More!"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
-                Margin="0,0,0,0"
-                CornerRadius="15"
-                WidthRequest="135"/>
-
-
-
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

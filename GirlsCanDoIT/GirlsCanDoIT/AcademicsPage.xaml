@@ -7,39 +7,46 @@
              mc:Ignorable="d"
              x:Class="GirlsCanDoIT.AcademicsPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
+    
     <ContentPage.Content>
-        <StackLayout Margin="20">
-            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.book.png}"
-                   HeightRequest="70" 
-                   Margin="10"/>
+        <ScrollView>
 
-            <Label Text="Academics" 
-                   TextColor="White"
-                   HorizontalOptions="Center" 
-                   FontSize="Large"
-                   FontAttributes="Bold"
-                   Margin="0,0,0,50"/>
+            <StackLayout Margin="20">
+                <StackLayout>
+                    
+                </StackLayout>
+                <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.book.png}"
+                       HeightRequest="70" 
+                       Margin="10"/>
 
-            <Label Text="Each state has educational opportunities for you to jump start your career in the technology field.&#x0a;Just select a state you would like to learn more about!" 
-                   TextColor="White" 
-                   FontSize="25" 
-                   FontAttributes="Bold" 
-                   HorizontalTextAlignment="Center"/>
+                <Label Text="Academics" 
+                       TextColor="White"
+                       HorizontalOptions="Center" 
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       Margin="0,0,0,50"/>
 
-            <Picker x:Name="statePicker"
-                    Title="Select a State"
-                    FontSize="20"
-                    Margin="110,30,100,0"
-                    BackgroundColor="white"
-                    SelectedIndexChanged="statePicker_SelectedIndexChanged"/>
+                <Label Text="Each state has educational opportunities for you to jump start your career in the technology field.&#x0a;Just select a state you would like to learn more about!" 
+                       TextColor="White"
+                       FontSize="25" 
+                       FontAttributes="Bold" 
+                       HorizontalTextAlignment="Center"/>
 
-            <Button Text="Learn More"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"
-                    Margin="30"
-                    CornerRadius="15"
-                    WidthRequest="120"/>
+                <Picker x:Name="statePicker"
+                        Title="Select a State"
+                        FontSize="20"
+                        Margin="110,30,100,0"
+                        BackgroundColor="white"
+                        SelectedIndexChanged="statePicker_SelectedIndexChanged"/>
 
-        </StackLayout>
+                <Button Text="Learn More"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                        Margin="30"
+                        CornerRadius="15"
+                        WidthRequest="120"/>
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
