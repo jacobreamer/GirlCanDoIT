@@ -21,6 +21,7 @@
     <None Remove="Images\info.png" />
     <None Remove="Images\laptop.png" />
     <None Remove="Images\ncwits.png" />
+    <None Remove="Images\twitter.png" />
     <None Remove="Images\woman.png" />
     <None Remove="Images\_acm.jpg" />
   </ItemGroup>
@@ -36,6 +37,7 @@
     <EmbeddedResource Include="Images\info.png" />
     <EmbeddedResource Include="Images\laptop.png" />
     <EmbeddedResource Include="Images\ncwits.png" />
+    <EmbeddedResource Include="Images\twitter.png" />
     <EmbeddedResource Include="Images\woman.png" />
   </ItemGroup>
 

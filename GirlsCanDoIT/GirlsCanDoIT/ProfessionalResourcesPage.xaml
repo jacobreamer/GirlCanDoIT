@@ -78,7 +78,7 @@
                    VerticalTextAlignment="Center"
                    FontAttributes="Bold"
                    TextColor="White"
-                   Margin="70,0,70,-10"
+                   Margin="70,0,70,0"
                    FontSize="20"/>
 
 
@@ -92,7 +92,7 @@
                    
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
-                   Margin="0,50,0,-10"
+                   Margin="0,50,0,20"
                 >
 
                 <Label.FormattedText>
@@ -110,11 +110,22 @@
             </Label>
 
 
-            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.aicpro.png}" 
-               HeightRequest="150" 
-                     
-               Margin="30"
-               />
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.aicpro.png}"
+               
+                    HeightRequest="150"  
+                    WidthRequest="300"
+                      
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+               >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                 Command="{Binding ClickCommand}"
+                                          CommandParameter="https://www.aspirations.org/" />
+
+                </Image.GestureRecognizers>
+
+            </Image>
 
 
 
@@ -122,7 +133,8 @@
                    
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
-                   Margin="0,50,0,-10"
+                   Margin="0,50,0,20"
+                   
                 >
 
                 <Label.FormattedText>
@@ -140,17 +152,30 @@
             </Label>
 
 
-            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm.jpg}" 
-                  HeightRequest="150"   
-                  Margin="30"
-               />
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm.jpg}"
+               
+                    HeightRequest="150"  
+                   WidthRequest="300"
+                     
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+               >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                 Command="{Binding ClickCommand}"
+                                          CommandParameter="https://www.acm.org/" />
+
+                </Image.GestureRecognizers>
+
+            </Image>
+            
 
 
             <Label
                    
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
-                   Margin="0,50,0,-10"
+                   Margin="0,50,0,20"
                 >
 
                 <Label.FormattedText>
@@ -168,17 +193,34 @@
             </Label>
 
 
-            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.ncwits.png}" 
-                   HeightRequest="150"         
-                   Margin="30"
-               />
+            
+
+
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.ncwits.png}"
+               
+                    HeightRequest="150"  
+                    WidthRequest="300"
+                   
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+               >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                 Command="{Binding ClickCommand}"
+                                          CommandParameter="https://www.ncwit.org/" />
+
+                </Image.GestureRecognizers>
+
+            </Image>
+            
+            
 
 
             <Label
                    
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
-                   Margin="0,50,0,-10"
+                   Margin="0,50,0,20"
                 >
 
                 <Label.FormattedText>
@@ -196,24 +238,31 @@
             </Label>
 
 
-            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm_women.jpg}" 
-                   HeightRequest="150"         
-                   Margin="30"
-               />
-
-
            
 
-            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.facebook2.png}">
+
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm_women.jpg}"
+               
+                    HeightRequest="150"  
+                    WidthRequest="300"
+                    Margin="0,0,0,15"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+               >
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer
                  Command="{Binding ClickCommand}"
-                                          CommandParameter="https://www.facebook.com/pages/category/Artist/Girls-Can-Do-It-1521880821462566/" />
-                
+                                          CommandParameter="https://women.acm.org/" />
+
                 </Image.GestureRecognizers>
+
             </Image>
-            
-            
+
+
+
+
+
+
 
 
         </StackLayout>

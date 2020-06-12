@@ -46,9 +46,9 @@ namespace GirlsCanDoIT
         [Obsolete]
         public HyperlinkSpan()
         {
-            TextDecorations = TextDecorations.Underline;
+            
             TextColor = Color.White;
-            FontSize = 25;
+            FontSize = 20;
 
 
 
