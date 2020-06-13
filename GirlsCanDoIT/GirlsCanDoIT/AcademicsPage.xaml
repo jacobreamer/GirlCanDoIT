@@ -16,7 +16,7 @@
                     
                 </StackLayout>
                 <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.book.png}"
-                       HeightRequest="70" 
+                       HeightRequest="100"
                        Margin="10"/>
 
                 <Label Text="Academics" 
@@ -28,7 +28,7 @@
 
                 <Label Text="Each state has educational opportunities for you to jump start your career in the technology field.&#x0a;Just select a state you would like to learn more about!" 
                        TextColor="White"
-                       FontSize="25" 
+                       FontSize="25"
                        FontAttributes="Bold" 
                        HorizontalTextAlignment="Center"/>
 

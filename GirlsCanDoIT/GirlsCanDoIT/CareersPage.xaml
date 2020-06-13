@@ -10,9 +10,9 @@
     
     <ScrollView>
         <StackLayout Margin="20">
-            
+
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.laptop.png}" 
-                   HeightRequest="70" 
+                   HeightRequest="100" 
                    Margin="10"
                    BackgroundColor="Transparent"/>
         

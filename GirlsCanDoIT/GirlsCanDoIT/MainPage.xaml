@@ -62,67 +62,50 @@
                HorizontalOptions="Center" 
                FontSize="Large"/>
 
-        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,25,0,0"
-                     />
+        <BoxView HorizontalOptions="FillAndExpand" 
+                 HeightRequest="2" 
+                 Color="White" 
+                 Margin="0,25,0,0"/>
 
-        
-
-
-
-        <Grid>
-           
-            <Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
+                
                 <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.facebook3.png}"
-               Margin="0,30,-175,5"
-                       Grid.Column="0" 
-               >
+                       Margin="0,30,-175,5"
+                       Grid.Column="0">
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer
-                 Command="{Binding ClickCommand}"
-                                          CommandParameter="https://www.facebook.com/pages/category/Artist/Girls-Can-Do-It-1521880821462566/" />
-
+                        <TapGestureRecognizer Command="{Binding ClickCommand}"
+                                              CommandParameter="https://www.facebook.com/pages/category/Artist/Girls-Can-Do-It-1521880821462566/" />
                     </Image.GestureRecognizers>
-
                 </Image>
 
-
-                <BoxView  
-               Grid.Column="1" 
-               Margin="0,30,0,0"
-               VerticalOptions="Fill"
-               HorizontalOptions="Center"
-               WidthRequest="1"
-               Color="White"/>
-
+        <BoxView Grid.Column="1" 
+                 Margin="0,30,0,0"
+                 VerticalOptions="Fill"
+                 HorizontalOptions="Center"
+                 WidthRequest="1"
+                 Color="White"/>
 
                 <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.twitter.png}"
-               Margin="-175,30,0,5"
+                       Margin="-175,30,0,5"
                        Grid.Column="2" 
                        VerticalOptions="Center"
-                       HorizontalOptions="Center"
-               >
+                       HorizontalOptions="Center">
+                    
                     <Image.GestureRecognizers>
-                        <TapGestureRecognizer
-                 Command="{Binding ClickCommand}"
-                                          CommandParameter="https://www.twitter.com" />
-
+                        <TapGestureRecognizer Command="{Binding ClickCommand}"
+                                              CommandParameter="https://www.twitter.com" />
                     </Image.GestureRecognizers>
-
                 </Image>
 
-                
-        </Grid>
-
-
-
-
+            </Grid>
+            
+        </StackLayout>
         
-        
-        
-    </StackLayout>
     </ScrollView>
+    
 </ContentPage>
