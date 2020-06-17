@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GirlsCanDoIT.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,18 @@ namespace GirlsCanDoIT
         {
             InitializeComponent();
             BindingContext = this;
+
+            foreach (string allstates in States.StatesArray)
+            {
+                statePicker.Items.Add(allstates);
+            }
+        }
+
+
+        private void statePicker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var state = statePicker.Items[statePicker.SelectedIndex];
+            DisplayAlert(state, "Selected value", "OK");
         }
 
         public void facebookButton_Clicked(object sender, EventArgs e)
@@ -59,5 +72,7 @@ namespace GirlsCanDoIT
                 Command = new Command(async () => await Launcher.OpenAsync(Url))
             });
         }
+
+
     }
 }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4rfbaUW7fvdE1K+9kI9WwBBaPCBSolRZdBgEfAFYsyYUmpdAf5lwy9loWTCY3gDCy+zyyfBcuh01KnmH1M3/0w==",
+  "dgSpecHash": "kEm3SnzJs7uiVLKzYagWX0BJdfHwXsRi8xM5ntyXd6xhPt3ukhQ1V2UMft7BSzWvxyO6yO+DRVhAcWN/8GI9HQ==",
   "success": true,
-  "projectFilePath": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+  "projectFilePath": "C:\\Users\\busin\\Documents\\Summer Internship\\Final\\Final2\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jacob Reamer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\busin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],

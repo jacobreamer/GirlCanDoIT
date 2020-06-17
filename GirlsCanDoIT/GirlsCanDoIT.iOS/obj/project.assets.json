@@ -1045,24 +1045,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jacob Reamer\\.nuget\\packages\\": {},
+    "C:\\Users\\busin\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\busin\\Documents\\Summer Internship\\Final\\Final2\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
       "projectName": "GirlsCanDoIT.iOS",
-      "projectPath": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
-      "packagesPath": "C:\\Users\\Jacob Reamer\\.nuget\\packages\\",
-      "outputPath": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\obj\\",
+      "projectPath": "C:\\Users\\busin\\Documents\\Summer Internship\\Final\\Final2\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+      "packagesPath": "C:\\Users\\busin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\busin\\Documents\\Summer Internship\\Final\\Final2\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jacob Reamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\busin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1076,8 +1076,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
-              "projectPath": "D:\\june10\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
+            "C:\\Users\\busin\\Documents\\Summer Internship\\Final\\Final2\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+              "projectPath": "C:\\Users\\busin\\Documents\\Summer Internship\\Final\\Final2\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
             }
           }
         }
