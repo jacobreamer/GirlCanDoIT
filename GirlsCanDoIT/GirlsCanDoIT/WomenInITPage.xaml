@@ -7,8 +7,10 @@
              mc:Ignorable="d"
              x:Class="GirlsCanDoIT.WomenInITPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
-
-    <StackLayout Margin="20">
+    
+    <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        
+        <StackLayout Margin="20">
         <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.woman.png}" 
                HeightRequest="100" 
                Margin="10"
@@ -16,7 +18,7 @@
         <Label Text="Women in IT" 
                TextColor="White" 
                HorizontalOptions="Center" 
-               FontSize="60"/>
+               FontSize="35"/>
 
 
         <Label Text="There are a number of women that play important roles in major corporation's technoolgy departments" 
@@ -51,4 +53,5 @@
 
         
     </StackLayout>
+    </ScrollView>
 </ContentPage>
