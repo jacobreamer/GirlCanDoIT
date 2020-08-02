@@ -13,35 +13,114 @@
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.laptop.png}" 
                    HeightRequest="100" 
+                   WidthRequest="100"
                    Margin="10"
                    BackgroundColor="Transparent"/>
         
             <Label Text="Careers"
                    TextColor="White" 
                    HorizontalOptions="Center" 
-                   FontSize="Large"
+                   FontSize="30"
                    FontAttributes="Bold"
                    Margin="0,0,0,50"/>
 
-            <Label Text="There is an endless amount of careers to choose from when it comes to technology.&#x0a;Pick a career off the list to learn more about it!" 
+            <Label Text="There is an endless amount of careers to choose from when it comes to technology.&#x0a;&#x0a;Listed below are some of the most popular information technology fields." 
                    TextColor="White" 
-                   FontSize="25"
+                   FontSize="20"
                    FontAttributes="Bold" 
                    HorizontalTextAlignment="Center"/>
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
+                     />
 
-            <Picker x:Name="careerPicker"
-                    Title="Select a Career"
-                    FontSize="20"
-                    Margin="110,30,90,0"
-                    BackgroundColor="white"
-                    SelectedIndexChanged="careerPicker_SelectedIndexChanged"/>
+            
+            <ListView x:Name="listColleges" ItemsSource="{Binding Colleges}"
+                      HasUnevenRows="True">
 
-            <Button Text="Learn More!"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"
-                    Margin="0,0,0,0"
-                    CornerRadius="15"
-                    WidthRequest="135"/>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <!--<TextCell Text="{Binding Topic}" TextColor="Purple"
+                         Detail="{Binding SpeakerName}" DetailColor="Maroon"/> -->
+
+
+                        <!-- <ImageCell Text="{Binding Topic}" TextColor="Purple"
+                         Detail="{Binding SpeakerName}" DetailColor="Maroon"
+                         ImageSource="{Binding ImageUrl}" /> -->
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Spacing="5">
+                                    <!--<Label Text="{Binding Topic}" FontSize="20 " HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+                                             TextColor="White"/>-->
+
+
+
+
+                                    <!--  <Label Text="{Binding College_Name}"
+                                           FontSize="30" TextColor="White" HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />-->
+
+
+                                    <Label Text="{Binding Url}"
+                    
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   Margin="0,50,0,20"
+                   
+                >
+
+                                        <Label.FormattedText>
+
+                                            <FormattedString>
+                                                <Span Text=" "
+                              />
+                                                <local:HyperlinkSpan Text="{Binding College_Name}"
+                                             FontSize="25"
+                                             TextColor="White" 
+                                             TextDecorations="Underline"
+                                         Url="{Binding Url}"
+                                             />
+
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    
+                                    
+                                    
+                                    
+
+
+
+                                    <Image Source="{Binding ImageUrl}"
+                                    WidthRequest="150" HeightRequest="150" />
+
+                                    <Label Text="{Binding CollegeName}"
+                                           FontSize="22" TextColor="White" HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+
+                                    <BoxView HorizontalOptions="Center" HeightRequest="2" Color="White" Margin="0,15,0,0"
+                     />
+
+                                    <Label Text="{Binding ShortDescription}"
+                                        FontSize="16" TextColor="White" HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+                                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
+                     />
+
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
 
         </StackLayout>
     </ScrollView>

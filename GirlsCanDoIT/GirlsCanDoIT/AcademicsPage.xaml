@@ -26,25 +26,62 @@
                        FontAttributes="Bold"
                        Margin="0,0,0,50"/>
 
-                <Label Text="Each state has educational opportunities for you to jump start your career in the technology field.&#x0a;Just select a state you would like to learn more about!" 
+                <Label Text="Each state has educational opportunities for you to jump start your career in the technology field.&#x0a;" 
                        TextColor="White"
                        FontSize="25"
                        FontAttributes="Bold" 
                        HorizontalTextAlignment="Center"/>
 
-                <Picker x:Name="statePicker"
-                        Title="Select a State"
-                        FontSize="20"
-                        Margin="110,30,100,0"
-                        BackgroundColor="white"
-                        SelectedIndexChanged="statePicker_SelectedIndexChanged"/>
 
-                <Button Text="Learn More"
-                        VerticalOptions="CenterAndExpand"
-                        HorizontalOptions="Center"
-                        Margin="30"
-                        CornerRadius="15"
-                        WidthRequest="120"/>
+                
+                
+                
+                
+                <Label Text="Academics Information" FontSize="34" TextColor="White" HorizontalOptions="CenterAndExpand" />
+                <ListView x:Name="listColleges" ItemsSource="{Binding Colleges}"
+                      HasUnevenRows="True">
+
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <!--<TextCell Text="{Binding Topic}" TextColor="Purple"
+                         Detail="{Binding SpeakerName}" DetailColor="Maroon"/> -->
+
+
+                            <!-- <ImageCell Text="{Binding Topic}" TextColor="Purple"
+                         Detail="{Binding SpeakerName}" DetailColor="Maroon"
+                         ImageSource="{Binding ImageUrl}" /> -->
+
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout Spacing="5">
+                                        <Label Text="{Binding Topic}" FontSize="20 " HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+                                             TextColor="White"/>
+                                        <Image Source="{Binding ImageUrl}"
+                                    WidthRequest="150" HeightRequest="150" />
+                                        <Label Text="{Binding CollegeName}"
+                                           FontSize="18" TextColor="White" HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+                                        <Label Text="{Binding ShortDescription}"
+                                        FontSize="18" TextColor="White" HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
+                     />
+
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+
 
             </StackLayout>
         </ScrollView>

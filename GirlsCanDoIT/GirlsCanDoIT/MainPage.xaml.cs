@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Essentials;
 using System.Windows.Input;
 using Xamarin.Forms.Xaml;
+using GirlsCanDoIT.View;
 
 namespace GirlsCanDoIT
 {

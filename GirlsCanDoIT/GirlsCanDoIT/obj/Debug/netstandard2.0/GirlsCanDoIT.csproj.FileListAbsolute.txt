@@ -142,3 +142,22 @@ C:\Users\busin\Documents\Summer Internship\Final\Final2\GirlsCanDoIT\GirlsCanDoI
 C:\Users\busin\Documents\Summer Internship\Final\Final2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
 C:\Users\busin\Documents\Summer Internship\Final\Final2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
 C:\Users\busin\Documents\Summer Internship\Final\Final2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csprojAssemblyReference.cache
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\AcademicsPage.xaml.g.cs
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\CareersPage.xaml.g.cs
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ProfessionalResourcesPage.xaml.g.cs
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\WomenInITPage.xaml.g.cs
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.AssemblyInfoInputs.cache
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.AssemblyInfo.cs
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csproj.CoreCompileInputs.cache
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.deps.json
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.dll
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.pdb
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\XamlC.stamp
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\View\CollegeView.xaml.g.cs

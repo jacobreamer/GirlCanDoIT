@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:GirlsCanDoIT"
+             mc:Ignorable="d"
+             x:Class="GirlsCanDoIT.View.SpeakerView"
+             BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
+    <ContentPage.Content>
+        <StackLayout
+            Spacing="10" Padding="10">
+            <Label Text="Academics Information" FontSize="34" TextColor="White" HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="listColleges" ItemsSource="{Binding Colleges}"
+                      HasUnevenRows="True">
+                
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <!--<TextCell Text="{Binding Topic}" TextColor="Purple"
+                         Detail="{Binding SpeakerName}" DetailColor="Maroon"/> -->
+
+
+                        <!-- <ImageCell Text="{Binding Topic}" TextColor="Purple"
+                         Detail="{Binding SpeakerName}" DetailColor="Maroon"
+                         ImageSource="{Binding ImageUrl}" /> -->
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Spacing="5">
+                                    <Label Text="{Binding Topic}" FontSize="20 " HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+                                             TextColor="White"/>
+                                <Image Source="{Binding ImageUrl}"
+                                    WidthRequest="150" HeightRequest="150" />
+                                <Label Text="{Binding CollegeName}"
+                                           FontSize="18" TextColor="White" HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+                                    <Label Text="{Binding ShortDescription}"
+                                        FontSize="18" TextColor="White" HorizontalOptions="Center" Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+                                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
+                     />
+                                
+                            </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                        
+                        
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

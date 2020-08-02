@@ -1,4 +1,5 @@
 ﻿using GirlsCanDoIT.Classes;
+using GirlsCanDoIT.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,21 +14,22 @@ namespace GirlsCanDoIT
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AcademicsPage : ContentPage
     {
+        CollegeViewModel vm;
+
         public AcademicsPage()
         {
             InitializeComponent();
 
-            foreach (string allStates in States.StatesArray)
-            {
-                statePicker.Items.Add(allStates);
-            }
+            
+
+            vm = new CollegeViewModel();
+            // listSpeakers.ItemsSource = vm.College;
+            BindingContext = vm;
         }
 
 
-    private void statePicker_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var state = statePicker.Items[statePicker.SelectedIndex];
-            DisplayAlert(state, "Selected value", "OK");
-        }
+
+
+    
     }
 }
