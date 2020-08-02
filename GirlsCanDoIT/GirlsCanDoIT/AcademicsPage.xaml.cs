@@ -7,22 +7,15 @@ namespace GirlsCanDoIT
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AcademicsPage : ContentPage
     {
-        CareerViewModel vm;
+        private CareerViewModel vm;
 
         public AcademicsPage()
         {
             InitializeComponent();
 
-
-
             vm = new CareerViewModel();
             // listSpeakers.ItemsSource = vm.College;
             BindingContext = vm;
         }
-
-
-
-
-
     }
 }

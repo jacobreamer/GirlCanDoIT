@@ -5,25 +5,22 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-
 namespace GirlsCanDoIT
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CareersPage : ContentPage
     {
-        CareerViewModel vm;
+        private CareerViewModel vm;
+
         public CareersPage()
         {
             InitializeComponent();
 
             vm = new CareerViewModel();
-            // listSpeakers.ItemsSource = vm.College;
             BindingContext = vm;
-
         }
 
-
-
+        //Allows the app to open outside browser when hyperlinks are clicked
 
         [Obsolete]
         public ICommand ClickCommand => new Command<string>((url) =>
@@ -31,6 +28,8 @@ namespace GirlsCanDoIT
             Device.OpenUri(new System.Uri(url));
         });
     }
+
+     //Creates hyperlink class
 
     public class HyperlinkSpan2 : Span
     {
@@ -43,15 +42,13 @@ namespace GirlsCanDoIT
             set { SetValue(UrlProperty, value); }
         }
 
+        //On tap gesture the hyperlink executes
+
         [Obsolete]
         public HyperlinkSpan2()
         {
-
             TextColor = Color.White;
             FontSize = 20;
-
-
-
 
             GestureRecognizers.Add(new TapGestureRecognizer
             {
@@ -59,11 +56,5 @@ namespace GirlsCanDoIT
                 Command = new Command(async () => await Launcher.OpenAsync(Url))
             });
         }
-
-
     }
 }
-
-
-
-

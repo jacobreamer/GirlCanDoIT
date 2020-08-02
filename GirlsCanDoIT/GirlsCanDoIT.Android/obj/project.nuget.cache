@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rhEgjaHRTAool36mOSV0tJ1nSTQsL6qTKug7lhrfQAGga+TQS48Yu1N+ig9XTAYChbWEIOwjRo5cct/BBghyVg==",
+  "dgSpecHash": "DD54a6W4n/qoZMPwJ6GXD01cpxgY/vSc7Z3TRQnK+f4SG4KapaPysHljjl9HFNEuHVOS0nDADQvNNeQKim3CkQ==",
   "success": true,
-  "projectFilePath": "D:\\2020\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+  "projectFilePath": "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jacob Reamer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

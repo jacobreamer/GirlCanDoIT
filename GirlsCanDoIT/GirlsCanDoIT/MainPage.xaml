@@ -8,105 +8,98 @@
              x:Class="GirlsCanDoIT.MainPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}"
              NavigationPage.HasNavigationBar="False">
-    
-    
-        
-        <StackLayout Margin="20">
-        
+
+    <StackLayout Margin="20">
+
         <Label Text="Girls Can Do I.T."
                TextColor="White"
                FontSize="35"
                HorizontalOptions="CenterAndExpand"
-               Margin="0,-10,0,0"/>
-        
+               Margin="0,-10,0,0" />
+
         <ImageButton x:Name="booksButton"
-                     Clicked="BooksButton_Clicked" 
-                     Source="{local:ImageResourceExtention GirlsCanDoIT.Images.book.png}" 
-                     HeightRequest="70" 
-                     Margin="10"
-                     BackgroundColor="Transparent"/>
-        <Label Text="Academics" 
-               TextColor="White" 
-               HorizontalOptions="Center"
-               FontSize="Large"/>
-        
-        <ImageButton x:Name="laptopButton" 
-                     Clicked="laptopButton_Clicked"
-                     Source="{local:ImageResourceExtention GirlsCanDoIT.Images.laptop.png}" 
+                     Clicked="BooksButton_Clicked"
+                     Source="{local:ImageResourceExtention GirlsCanDoIT.Images.book.png}"
                      HeightRequest="70"
                      Margin="10"
-                     BackgroundColor="Transparent"/>
+                     BackgroundColor="Transparent" />
+        <Label Text="Academics"
+               TextColor="White"
+               HorizontalOptions="Center"
+               FontSize="Large" />
+
+        <ImageButton x:Name="laptopButton"
+                     Clicked="laptopButton_Clicked"
+                     Source="{local:ImageResourceExtention GirlsCanDoIT.Images.laptop.png}"
+                     HeightRequest="70"
+                     Margin="10"
+                     BackgroundColor="Transparent" />
         <Label Text="Careers"
-               TextColor="White" 
-               HorizontalOptions="Center" 
-               FontSize="Large"/>
-        
-        <ImageButton x:Name="womenButton" 
-                     Clicked="womenButton_Clicked" 
+               TextColor="White"
+               HorizontalOptions="Center"
+               FontSize="Large" />
+
+        <ImageButton x:Name="womenButton"
+                     Clicked="womenButton_Clicked"
                      Source="{local:ImageResourceExtention GirlsCanDoIT.Images.woman.png}"
                      HeightRequest="70"
                      Margin="10"
-                     BackgroundColor="Transparent"/>
-        <Label Text="Women in IT" 
-               TextColor="White" 
-               HorizontalOptions="Center" 
-               FontSize="Large"/>
-        
-        <ImageButton x:Name="infoButton" 
-                     Clicked="infoButton_Clicked" 
+                     BackgroundColor="Transparent" />
+        <Label Text="Women in IT"
+               TextColor="White"
+               HorizontalOptions="Center"
+               FontSize="Large" />
+
+        <ImageButton x:Name="infoButton"
+                     Clicked="infoButton_Clicked"
                      Source="{local:ImageResourceExtention GirlsCanDoIT.Images.info.png}"
                      HeightRequest="70"
                      Margin="10"
-                     BackgroundColor="Transparent"/>
-        <Label Text="Professional Resources" 
-               TextColor="White" 
-               HorizontalOptions="Center" 
-               FontSize="Large"/>
+                     BackgroundColor="Transparent" />
+        <Label Text="Professional Resources"
+               TextColor="White"
+               HorizontalOptions="Center"
+               FontSize="Large" />
 
-        <BoxView HorizontalOptions="FillAndExpand" 
-                 HeightRequest="2" 
-                 Color="White" 
-                 Margin="0,15,0,0"/>
+        <BoxView HorizontalOptions="FillAndExpand"
+                 HeightRequest="2"
+                 Color="White"
+                 Margin="0,15,0,0" />
 
-            <Grid>
-                <Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                
-                <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.facebook3.png}"
+            </Grid.ColumnDefinitions>
+
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.facebook3.png}"
                        Margin="0,10,-175,0"
                        Grid.Column="0">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding ClickCommand}"
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ClickCommand}"
                                               CommandParameter="https://www.facebook.com/pages/category/Artist/Girls-Can-Do-It-1521880821462566/" />
-                    </Image.GestureRecognizers>
-                </Image>
+                </Image.GestureRecognizers>
+            </Image>
 
-        <BoxView Grid.Column="1" 
+            <BoxView Grid.Column="1"
                  Margin="0,10,0,0"
                  VerticalOptions="Fill"
                  HorizontalOptions="Center"
                  WidthRequest="1"
-                 Color="White"/>
+                 Color="White" />
 
-                <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.twitter.png}"
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.twitter.png}"
                        Margin="-175,10,0,0"
-                       Grid.Column="2" 
+                       Grid.Column="2"
                        VerticalOptions="Center"
                        HorizontalOptions="Center">
-                    
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding ClickCommand}"
-                                              CommandParameter="https://www.twitter.com" />
-                    </Image.GestureRecognizers>
-                </Image>
 
-            </Grid>
-            
-        </StackLayout>
-        
-    
-    
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ClickCommand}"
+                                              CommandParameter="https://www.twitter.com" />
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+    </StackLayout>
 </ContentPage>

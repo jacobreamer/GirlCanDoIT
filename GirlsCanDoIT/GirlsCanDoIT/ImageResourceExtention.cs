@@ -9,6 +9,7 @@ namespace GirlsCanDoIT
     internal class ImageResourceExtention : IMarkupExtension
     {
         public string Source { get; set; }
+
         public object ProvideValue(IServiceProvider serviceProvider)
         {
             if (Source == null)

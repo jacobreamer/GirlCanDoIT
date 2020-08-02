@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5oCZCSsOgy0WB6K+XMGVc8+85m/q+jTJGnqwXo+MA8mGNdxlT/apWxciMq3ZRnKuYsH2ZnXNKzM2WrMZsfAL2w==",
+  "dgSpecHash": "owGbY7elzMXvsNdTD2aAuGmdMkkQjU9lMU1PBv9aiKx9ZqcslDnoMwuOCBUSZ78+qyncow5i1qf+Tk4a3NfBiA==",
   "success": true,
-  "projectFilePath": "D:\\2020\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+  "projectFilePath": "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jacob Reamer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

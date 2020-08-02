@@ -10,7 +10,6 @@ namespace GirlsCanDoIT
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfessionalResourcesPage : ContentPage
     { // Launcher.OpenAsync is provided by Xamarin.Essentials.
-
         public ProfessionalResourcesPage()
         {
             InitializeComponent();
@@ -22,7 +21,6 @@ namespace GirlsCanDoIT
             }
         }
 
-
         private void statePicker_SelectedIndexChanged(object sender, EventArgs e)
         {
             var state = statePicker.Items[statePicker.SelectedIndex];
@@ -31,7 +29,6 @@ namespace GirlsCanDoIT
 
         public void facebookButton_Clicked(object sender, EventArgs e)
         {
-
         }
 
         [Obsolete]
@@ -39,8 +36,8 @@ namespace GirlsCanDoIT
         {
             Device.OpenUri(new System.Uri(url));
         });
-
     }
+
     public class HyperlinkSpan : Span
     {
         public static readonly BindableProperty UrlProperty =
@@ -55,12 +52,8 @@ namespace GirlsCanDoIT
         [Obsolete]
         public HyperlinkSpan()
         {
-
             TextColor = Color.White;
             FontSize = 20;
-
-
-
 
             GestureRecognizers.Add(new TapGestureRecognizer
             {
@@ -68,7 +61,5 @@ namespace GirlsCanDoIT
                 Command = new Command(async () => await Launcher.OpenAsync(Url))
             });
         }
-
-
     }
 }

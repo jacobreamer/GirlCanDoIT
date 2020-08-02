@@ -5,8 +5,6 @@ using Xamarin.Forms;
 
 namespace GirlsCanDoIT
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
@@ -16,14 +14,11 @@ namespace GirlsCanDoIT
             BindingContext = this;
         }
 
-
         [Obsolete]
         public ICommand ClickCommand => new Command<string>((url) =>
         {
             Device.OpenUri(new System.Uri(url));
         });
-
-
 
         private void BooksButton_Clicked(object sender, EventArgs e)
         {
@@ -44,6 +39,5 @@ namespace GirlsCanDoIT
         {
             Navigation.PushAsync(new ProfessionalResourcesPage());
         }
-
     }
 }

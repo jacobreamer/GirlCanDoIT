@@ -7,121 +7,85 @@
              mc:Ignorable="d"
              x:Class="GirlsCanDoIT.CareersPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
-    
+
     <ScrollView>
         <StackLayout Margin="20">
 
-            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.laptop.png}" 
-                   HeightRequest="100" 
+            <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.laptop.png}"
+                   HeightRequest="100"
                    WidthRequest="100"
                    Margin="10"
-                   BackgroundColor="Transparent"/>
-        
+                   BackgroundColor="Transparent" />
+
             <Label Text="Careers"
-                   TextColor="White" 
-                   HorizontalOptions="Center" 
+                   TextColor="White"
+                   HorizontalOptions="Center"
                    FontSize="30"
                    FontAttributes="Bold"
-                   Margin="0,0,0,50"/>
+                   Margin="0,0,0,50" />
 
-            <Label Text="There is an endless amount of careers to choose from when it comes to technology.&#x0a;&#x0a;Listed below are some of the most popular information technology fields." 
-                   TextColor="White" 
+            <Label Text="There is an endless amount of careers to choose from when it comes to technology.&#x0a;&#x0a;Listed below are some of the most popular information technology fields."
+                   TextColor="White"
                    FontSize="20"
-                   FontAttributes="Bold" 
-                   HorizontalTextAlignment="Center"/>
-            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
-                     />
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center" />
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0" />
 
+            <!--Lists careers and career info for user-->
             
-            <ListView x:Name="listColleges" ItemsSource="{Binding Careers}"
+            <ListView x:Name="listCareers" ItemsSource="{Binding Careers}"
                       HasUnevenRows="True">
-
 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <!--<TextCell Text="{Binding Topic}" TextColor="Purple"
-                         Detail="{Binding SpeakerName}" DetailColor="Maroon"/> -->
-
-
-                        <!-- <ImageCell Text="{Binding Topic}" TextColor="Purple"
-                         Detail="{Binding SpeakerName}" DetailColor="Maroon"
-                         ImageSource="{Binding ImageUrl}" /> -->
 
                         <ViewCell>
                             <ViewCell.View>
                                 <StackLayout Spacing="5">
-                                    <!--<Label Text="{Binding Topic}" FontSize="20 " HorizontalOptions="Center" Padding="20"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center"
-                                             TextColor="White"/>-->
-
-
-
-
-                                    <!--  <Label Text="{Binding College_Name}"
-                                           FontSize="30" TextColor="White" HorizontalOptions="Center" Padding="20"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center" />-->
-
 
                                     <Label Text="{Binding Url}"
-                    
-                   HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center"
-                   Margin="0,50,0,20"
-                   
-                >
+                                        HorizontalTextAlignment="Center"
+                                        VerticalTextAlignment="Center"
+                                        Margin="0,50,0,20">
 
                                         <Label.FormattedText>
-
+                                            
+                                            <!--Creates hyperlink for each career title-->
+                                            
                                             <FormattedString>
-                                                <Span Text=" "
-                              />
+                                                <Span Text=" " />
                                                 <local:HyperlinkSpan Text="{Binding Career_Name}"
-                                             FontSize="25"
-                                             TextColor="White" 
-                                             TextDecorations="Underline"
-                                         Url="{Binding Url}"
-                                             />
-
+                                                     FontSize="25"
+                                                     TextColor="White"
+                                                     TextDecorations="Underline"
+                                                Url="{Binding Url}" />
                                             </FormattedString>
                                         </Label.FormattedText>
                                     </Label>
                                     
+                                    <!--Fills in the rest of the info for each job field -->
                                     
-                                    
-                                    
-
-
-
                                     <Image Source="{Binding ImageUrl}"
                                     WidthRequest="150" HeightRequest="150" />
 
                                     <Label Text="{Binding CareerName}"
                                            FontSize="22" TextColor="White" HorizontalOptions="Center" Padding="20"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center" />
-
-                                    <BoxView HorizontalOptions="Center" HeightRequest="2" Color="White" Margin="0,15,0,0"
-                     />
+                                        HorizontalTextAlignment="Center"
+                                        VerticalTextAlignment="Center" />
+                                    <BoxView HorizontalOptions="Center" HeightRequest="2" Color="White" Margin="0,15,0,0" />
 
                                     <Label Text="{Binding ShortDescription}"
                                         FontSize="16" TextColor="White" HorizontalOptions="Center" Padding="20"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center" />
-                                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
-                     />
-
+                                        HorizontalTextAlignment="Center"
+                                        VerticalTextAlignment="Center" />
+                                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0" />
+                                    
                                 </StackLayout>
                             </ViewCell.View>
                         </ViewCell>
-
-
                     </DataTemplate>
                 </ListView.ItemTemplate>
-
             </ListView>
-
         </StackLayout>
     </ScrollView>
 </ContentPage>

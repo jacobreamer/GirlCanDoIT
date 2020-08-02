@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2020\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {}
+    "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {}
   },
   "projects": {
-    "D:\\2020\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+    "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2020\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "projectUniqueName": "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
         "projectName": "GirlsCanDoIT",
-        "projectPath": "D:\\2020\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+        "projectPath": "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
         "packagesPath": "C:\\Users\\Jacob Reamer\\.nuget\\packages\\",
-        "outputPath": "D:\\2020\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
+        "outputPath": "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

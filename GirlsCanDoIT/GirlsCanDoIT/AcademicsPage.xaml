@@ -7,50 +7,36 @@
              mc:Ignorable="d"
              x:Class="GirlsCanDoIT.AcademicsPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
-    
+
     <ContentPage.Content>
         <ScrollView>
 
             <StackLayout Margin="20">
                 <StackLayout>
-                    
                 </StackLayout>
                 <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.book.png}"
                        HeightRequest="100"
-                       Margin="10"/>
+                       Margin="10" />
 
-                <Label Text="Academics" 
+                <Label Text="Academics"
                        TextColor="White"
-                       HorizontalOptions="Center" 
+                       HorizontalOptions="Center"
                        FontSize="Large"
                        FontAttributes="Bold"
-                       Margin="0,0,0,50"/>
+                       Margin="0,0,0,50" />
 
-                <Label Text="Each state has educational opportunities for you to jump start your career in the technology field.&#x0a;" 
+                <Label Text="Each state has educational opportunities for you to jump start your career in the technology field.&#x0a;"
                        TextColor="White"
                        FontSize="25"
-                       FontAttributes="Bold" 
-                       HorizontalTextAlignment="Center"/>
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center" />
 
-
-                
-                
-                
-                
                 <Label Text="Academics Information" FontSize="34" TextColor="White" HorizontalOptions="CenterAndExpand" />
                 <ListView x:Name="listColleges" ItemsSource="{Binding Colleges}"
                       HasUnevenRows="True">
 
-
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <!--<TextCell Text="{Binding Topic}" TextColor="Purple"
-                         Detail="{Binding SpeakerName}" DetailColor="Maroon"/> -->
-
-
-                            <!-- <ImageCell Text="{Binding Topic}" TextColor="Purple"
-                         Detail="{Binding SpeakerName}" DetailColor="Maroon"
-                         ImageSource="{Binding ImageUrl}" /> -->
 
                             <ViewCell>
                                 <ViewCell.View>
@@ -58,7 +44,7 @@
                                         <Label Text="{Binding Topic}" FontSize="20 " HorizontalOptions="Center" Padding="20"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"
-                                             TextColor="White"/>
+                                             TextColor="White" />
                                         <Image Source="{Binding ImageUrl}"
                                     WidthRequest="150" HeightRequest="150" />
                                         <Label Text="{Binding CollegeName}"
@@ -69,20 +55,13 @@
                                         FontSize="18" TextColor="White" HorizontalOptions="Center" Padding="20"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center" />
-                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
-                     />
-
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0" />
                                     </StackLayout>
                                 </ViewCell.View>
                             </ViewCell>
-
-
                         </DataTemplate>
                     </ListView.ItemTemplate>
-
                 </ListView>
-
-
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

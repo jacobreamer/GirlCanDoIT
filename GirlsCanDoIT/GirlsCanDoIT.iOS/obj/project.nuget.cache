@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SYg+2yYEpQPASRGxv1Nqh2HIcoiAGW91bFAg9SGzpmkPcvB3S0Pzwm4vgHekJQv62mvSVGTDxz94s+jTfHWnMw==",
+  "dgSpecHash": "TaH/LmCk7fApzv+ye9U+Y10tt1acjdn0C6KJ7oOSLZQ2kHeZXH5fEKZd5u58yyIvg31n2HiY1I/zr8tf/5otOg==",
   "success": true,
-  "projectFilePath": "D:\\2020\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+  "projectFilePath": "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jacob Reamer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
