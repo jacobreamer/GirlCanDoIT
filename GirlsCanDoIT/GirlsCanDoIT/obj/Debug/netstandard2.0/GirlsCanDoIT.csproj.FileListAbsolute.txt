@@ -160,4 +160,4 @@ D:\2020\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.dll
 D:\2020\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
 D:\2020\GirlsCanDoIT\GirlsCanDoIT\bin\Debug\netstandard2.0\GirlsCanDoIT.pdb
 D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\XamlC.stamp
-D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\View\CollegeView.xaml.g.cs
+D:\2020\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\View\CareerView.xaml.g.cs

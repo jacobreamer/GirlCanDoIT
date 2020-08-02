@@ -1,9 +1,5 @@
 ﻿using GirlsCanDoIT.Classes;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -35,7 +31,7 @@ namespace GirlsCanDoIT
 
         public void facebookButton_Clicked(object sender, EventArgs e)
         {
-          
+
         }
 
         [Obsolete]
@@ -59,7 +55,7 @@ namespace GirlsCanDoIT
         [Obsolete]
         public HyperlinkSpan()
         {
-            
+
             TextColor = Color.White;
             FontSize = 20;
 

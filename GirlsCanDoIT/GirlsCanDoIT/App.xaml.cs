@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace GirlsCanDoIT
 {
@@ -11,7 +9,7 @@ namespace GirlsCanDoIT
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
-            
+
         }
 
         protected override void OnStart()

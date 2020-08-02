@@ -47,8 +47,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="View\CollegeView.xaml.cs">
-      <DependentUpon>CollegeView.xaml</DependentUpon>
+    <Compile Update="View\CareerView.xaml.cs">
+      <DependentUpon>CareerView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -62,7 +62,7 @@
     <EmbeddedResource Update="ProfessionalResourcesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\CollegeView.xaml">
+    <EmbeddedResource Update="View\CareerView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="WomenInITPage.xaml">

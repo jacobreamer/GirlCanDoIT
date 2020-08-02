@@ -10,19 +10,13 @@
         <StackLayout
             Spacing="10" Padding="10">
             <Label Text="Academics Information" FontSize="34" TextColor="White" HorizontalOptions="CenterAndExpand" />
-            <ListView x:Name="listColleges" ItemsSource="{Binding Colleges}"
+            <ListView x:Name="listCareers" ItemsSource="{Binding Careers}"
                       HasUnevenRows="True">
                 
 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <!--<TextCell Text="{Binding Topic}" TextColor="Purple"
-                         Detail="{Binding SpeakerName}" DetailColor="Maroon"/> -->
-
-
-                        <!-- <ImageCell Text="{Binding Topic}" TextColor="Purple"
-                         Detail="{Binding SpeakerName}" DetailColor="Maroon"
-                         ImageSource="{Binding ImageUrl}" /> -->
+                        
 
                         <ViewCell>
                             <ViewCell.View>
@@ -33,7 +27,7 @@
                                              TextColor="White"/>
                                 <Image Source="{Binding ImageUrl}"
                                     WidthRequest="150" HeightRequest="150" />
-                                <Label Text="{Binding CollegeName}"
+                                <Label Text="{Binding CareerName}"
                                            FontSize="18" TextColor="White" HorizontalOptions="Center" Padding="20"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center" />

@@ -1,10 +1,5 @@
-﻿using GirlsCanDoIT.Classes;
-using GirlsCanDoIT.ViewModel;
+﻿using GirlsCanDoIT.ViewModel;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -16,12 +11,12 @@ namespace GirlsCanDoIT
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CareersPage : ContentPage
     {
-        CollegeViewModel vm;
+        CareerViewModel vm;
         public CareersPage()
         {
             InitializeComponent();
 
-            vm = new CollegeViewModel();
+            vm = new CareerViewModel();
             // listSpeakers.ItemsSource = vm.College;
             BindingContext = vm;
 

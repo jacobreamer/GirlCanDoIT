@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("GirlsCanDoIT.View.CollegeView.xaml", "View/CollegeView.xaml", typeof(global::GirlsCanDoIT.View.SpeakerView))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("GirlsCanDoIT.View.CareerView.xaml", "View/CareerView.xaml", typeof(global::GirlsCanDoIT.View.SpeakerView))]
 
 namespace GirlsCanDoIT.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\CollegeView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\CareerView.xaml")]
     public partial class SpeakerView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.ListView listColleges;
+        private global::Xamarin.Forms.ListView listCareers;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SpeakerView));
-            listColleges = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listColleges");
+            listCareers = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listCareers");
         }
     }
 }

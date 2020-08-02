@@ -1,9 +1,5 @@
 ﻿using GirlsCanDoIT.ViewModel;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,16 +7,16 @@ using Xamarin.Forms.Xaml;
 namespace GirlsCanDoIT.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CollegeView : ContentPage
+    public partial class CareerView : ContentPage
     {
-        CollegeViewModel vm;
-        public CollegeView()
+        CareerViewModel vm;
+        public CareerView()
         {
             InitializeComponent();
-            vm = new CollegeViewModel();
+            vm = new CareerViewModel();
             // listColleges.ItemsSource = vm.College;
             BindingContext = vm;
-        
+
         }
 
         private void InitializeComponent()

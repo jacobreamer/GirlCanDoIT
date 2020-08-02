@@ -33,7 +33,7 @@
                      />
 
             
-            <ListView x:Name="listColleges" ItemsSource="{Binding Colleges}"
+            <ListView x:Name="listColleges" ItemsSource="{Binding Careers}"
                       HasUnevenRows="True">
 
 
@@ -77,7 +77,7 @@
                                             <FormattedString>
                                                 <Span Text=" "
                               />
-                                                <local:HyperlinkSpan Text="{Binding College_Name}"
+                                                <local:HyperlinkSpan Text="{Binding Career_Name}"
                                              FontSize="25"
                                              TextColor="White" 
                                              TextDecorations="Underline"
@@ -97,7 +97,7 @@
                                     <Image Source="{Binding ImageUrl}"
                                     WidthRequest="150" HeightRequest="150" />
 
-                                    <Label Text="{Binding CollegeName}"
+                                    <Label Text="{Binding CareerName}"
                                            FontSize="22" TextColor="White" HorizontalOptions="Center" Padding="20"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center" />
