@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="DataFiles\WomenIT.txt" />
+    <None Remove="DataFiles\WomenInField.txt" />
     <None Remove="Images\acm.jpg" />
     <None Remove="Images\acm_women.jpg" />
     <None Remove="Images\aicpro.png" />
@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="DataFiles\WomenIT.txt" />
+    <EmbeddedResource Include="DataFiles\WomenInField.txt" />
     <EmbeddedResource Include="Images\acm.jpg" />
     <EmbeddedResource Include="Images\acm_women.jpg" />
     <EmbeddedResource Include="Images\aicpro.png" />
