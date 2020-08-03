@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:GirlsCanDoIT"
+             x:Class="GirlsCanDoIT.Subpages.Top50WomenPage"
+             BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
+    <ContentPage.Content>
+        <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+            <StackLayout Margin="20">
+                <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.woman.png}" 
+               HeightRequest="100" 
+               Margin="10"
+               BackgroundColor="Transparent"/>
+                <Label Text="Top 50 Women in I.T." 
+               TextColor="White" 
+               HorizontalOptions="Center" 
+               FontSize="35"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

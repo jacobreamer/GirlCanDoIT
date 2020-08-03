@@ -7,9 +7,9 @@
              mc:Ignorable="d"
              x:Class="GirlsCanDoIT.WomenInITPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
-    
+
     <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-        
+
         <StackLayout Margin="20">
         <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.woman.png}" 
                HeightRequest="100" 
@@ -31,18 +31,19 @@
 
        
         <Button Text="Women in the Field"
+                x:Name="WomenInFieldButton"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                
                     Padding="0,0,0,0"
                     CornerRadius="15"
                     WidthRequest="160"
+                    Clicked="WomenInFieldButton_Clicked"
                     />
 
-        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0"
                      />
 
-        <Label Text="Learn more about the women who made it acceptable for females to enter I.T." 
+            <Label Text="Learn more about the women who made it acceptable for females to enter I.T." 
            HorizontalOptions="Center"        
                 HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"
@@ -51,7 +52,16 @@
                FontSize="20"
               />
 
-        
-    </StackLayout>
+            <Button Text="Top 50 Women in I.T."
+                    x:Name="Top50WomenButton"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                    Padding="0,0,0,0"
+                    CornerRadius="15"
+                    WidthRequest="160"
+                    Clicked="Top50WomenButton_Clicked"
+                    />
+
+        </StackLayout>
     </ScrollView>
 </ContentPage>

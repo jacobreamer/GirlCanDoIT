@@ -11,5 +11,15 @@ namespace GirlsCanDoIT
         {
             InitializeComponent();
         }
+
+        private void WomenInFieldButton_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new Subpages.WomenInFieldPage());
+        }
+
+        private void Top50WomenButton_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new Subpages.Top50WomenPage());
+        }
     }
 }
