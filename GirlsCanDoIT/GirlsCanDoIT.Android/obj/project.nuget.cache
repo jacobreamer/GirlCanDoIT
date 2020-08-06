@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "I6r8DNPStkSfevM0hm6rBJBnDKzUk7vcHEpNM1LdDnmukKnmtJcaTQcM4xdwDZesDGZO6jjS1HatEcD0STa6HQ==",
+  "dgSpecHash": "C6T/4MApJUpMb2Y2JzJbrE4RdiysQyKy1iFGo9ph3ELav2tG9FqRcI95xcU3hsCGnZ89zz1SEEiTu3GLprYhOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\safaa\\Desktop\\project\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+  "projectFilePath": "D:\\august2\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\safaa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jacob Reamer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Jacob Reamer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",

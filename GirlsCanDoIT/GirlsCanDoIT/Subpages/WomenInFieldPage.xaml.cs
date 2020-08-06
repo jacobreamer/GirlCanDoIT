@@ -32,7 +32,7 @@ namespace GirlsCanDoIT.Subpages
 
                 //listA.Add(values[0]);
                 //listB.Add(values[1]);
-                WomenList.Add(values[0],values[1]);
+               // WomenList.Add(values[0],values[1]);
                 //Woman[1] = values[1];
 
                 count = +1;

@@ -4291,3 +4291,4 @@ C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT.Android\obj\Debug\90\st
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\august2\GirlsCanDoIT\GirlsCanDoIT.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

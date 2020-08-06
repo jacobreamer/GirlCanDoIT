@@ -175,8 +175,6 @@ D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\View\CareerView.xa
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\WomenInITPage.xaml.g.cs
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.AssemblyInfoInputs.cache
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.AssemblyInfo.cs
-D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csproj.CoreCompileInputs.cache
-D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\XamlC.stamp
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
@@ -201,3 +199,7 @@ C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Subpages\WomenInFieldPage.xaml.g.cs
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Subpages\Top50WomenPage.xaml.g.cs
+D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Subpages\WomenInFieldPage.xaml.g.cs
+D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csproj.CoreCompileInputs.cache
+D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\XamlC.stamp
+D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Top50WomenPage.xaml.g.cs

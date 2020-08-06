@@ -19,7 +19,7 @@ namespace GirlsCanDoIT
 
         private void Top50WomenButton_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new Subpages.Top50WomenPage());
+            Navigation.PushAsync(new Top50WomenPage());
         }
     }
 }
