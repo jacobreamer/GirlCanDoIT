@@ -21,7 +21,7 @@ namespace GirlsCanDoIT
         {
             Device.OpenUri(new System.Uri(url));
         });
-
+        
         void GetJsonData()
         {
             string jsonFileName = "women.json";

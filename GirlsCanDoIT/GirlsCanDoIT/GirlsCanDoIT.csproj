@@ -21,13 +21,17 @@
     <None Remove="Images\facebook3.png" />
     <None Remove="Images\info.png" />
     <None Remove="Images\laptop.png" />
+    <None Remove="Images\michigan_final.png" />
     <None Remove="Images\ncwits.png" />
     <None Remove="Images\twitter.png" />
     <None Remove="Images\woman.png" />
     <None Remove="Images\_acm.jpg" />
+    <None Remove="Michigan.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\michigan_final.png" />
+    <EmbeddedResource Include="Michigan.json" />
     <EmbeddedResource Include="women.json" />
     <EmbeddedResource Include="DataFiles\WomenInField.txt" />
     <EmbeddedResource Include="Images\acm.jpg" />
@@ -51,6 +55,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="CollegeStates.xaml.cs">
+      <DependentUpon>CollegeStates.xaml</DependentUpon>
+    </Compile>
     <Compile Update="View\CareerView.xaml.cs">
       <DependentUpon>CareerView.xaml</DependentUpon>
     </Compile>
@@ -61,6 +68,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CareersPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CollegeStates.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ProfessionalResourcesPage.xaml">

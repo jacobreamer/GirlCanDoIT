@@ -203,3 +203,4 @@ D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Subpages\WomenInFi
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csproj.CoreCompileInputs.cache
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\XamlC.stamp
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Top50WomenPage.xaml.g.cs
+D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\CollegeStates.xaml.g.cs

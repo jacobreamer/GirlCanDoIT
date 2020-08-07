@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("GirlsCanDoIT.AcademicsPage.xaml", "AcademicsPage.xaml", typeof(global::GirlsCanDoIT.AcademicsPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("GirlsCanDoIT.CollegeStates.xaml", "CollegeStates.xaml", typeof(global::GirlsCanDoIT.CollegeStates))]
 
 namespace GirlsCanDoIT {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("AcademicsPage.xaml")]
-    public partial class AcademicsPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("CollegeStates.xaml")]
+    public partial class CollegeStates : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.ImageButton MichiganButton;
+        private global::Xamarin.Forms.ListView listviewColleges;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AcademicsPage));
-            MichiganButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ImageButton>(this, "MichiganButton");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CollegeStates));
+            listviewColleges = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listviewColleges");
         }
     }
 }

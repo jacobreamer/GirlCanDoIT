@@ -32,36 +32,17 @@
                        HorizontalTextAlignment="Center" />
 
                 <Label Text="Academics Information" FontSize="34" TextColor="White" HorizontalOptions="CenterAndExpand" />
-                <ListView x:Name="listColleges" ItemsSource="{Binding Colleges}"
-                      HasUnevenRows="True">
+            
 
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
 
-                            <ViewCell>
-                                <ViewCell.View>
-                                    <StackLayout Spacing="5">
-                                        <Label Text="{Binding Topic}" FontSize="20 " HorizontalOptions="Center" Padding="20"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center"
-                                             TextColor="White" />
-                                        <Image Source="{Binding ImageUrl}"
-                                    WidthRequest="150" HeightRequest="150" />
-                                        <Label Text="{Binding CollegeName}"
-                                           FontSize="18" TextColor="White" HorizontalOptions="Center" Padding="20"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center" />
-                                        <Label Text="{Binding ShortDescription}"
-                                        FontSize="18" TextColor="White" HorizontalOptions="Center" Padding="20"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center" />
-                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0" />
-                                    </StackLayout>
-                                </ViewCell.View>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+                <ImageButton x:Name="MichiganButton"
+                     Clicked="MichiganButton_Clicked"
+                     Source="{local:ImageResourceExtention GirlsCanDoIT.Images.michigan_final.png}"
+                     HeightRequest="70"
+                     Margin="10"
+                     BackgroundColor="Transparent" />
+
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
