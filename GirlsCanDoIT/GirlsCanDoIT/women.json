@@ -1,24 +1,233 @@
 {
   "women": [
     {
-      "description": "A gifted manthematician, Ada Byron is considered to have written instrutions for the first computer program in the mid-1800's. Because she introduced many computer concepts, Ada is considered the frist computer programmer",
+      "description": "A gifted manthematician, Ada Byron is considered to have written instrutions for the first computer program in the mid-1800's. Because she introduced many computer concepts, Ada is considered the frist computer programmer.",
       "name": "Ada Byron",
       "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwODQwOTQ2MTkw/ada-lovelace-20825279-1-402.jpg",
       "website": "https://www.google.com/"
 
     },
     {
-      "description": "Edith Clarke was the first female electrical engineer and the first female professor of electrical engineering at the University of Texas at Austin",
+      "description": "Edith Clarke was the first female electrical engineer and the first female professor of electrical engineering at the University of Texas at Austin.",
       "name": "Edith Clarke",
       "image": "https://inteng-storage.s3.amazonaws.com/images/MARCH/sizes/Edith-Clark1_resize_md.jpg",
       "website": "https://www.google.com/"
     },
     {
-      "description": "Grace Hopper was a computer programmer who helped develop a compiler that was a precursor to the widley used COBAL language and became a rear admiral in the U.S. Navy. She is also a recipient of the Presidential Medal of Freedom",
+      "description": "Grace Hopper was a computer programmer who helped develop a compiler that was a precursor to the widley used COBAL language and became a rear admiral in the U.S. Navy. She is also a recipient of the Presidential Medal of Freedom.",
       "name": "Grace Hopper",
       "image": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NTU2MzE2NjYxNTE1Nzg3/grace-hopper-21406809-1-402.jpg",
       "website": "https://www.google.com/"
-
+    },
+    {
+      "description": "Sister Marry Kenneth Keller was an American religious sister, educator, and pioneer in computer science. She was one of the very first woman to receive a Ph.D in computer science. She founded the computer science department at Clark College in Dubuque, Iowa.",
+      "name": "Sister Mary Kenneth Keller",
+      "image": "https://www.edusoft.ro/wp-content/uploads/2015/04/MaryKeller-209x300.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Carol Shaw is believed to be the first female video game designer. She programmed River Raid for Activision, which was universally regarded as a masterpiece of game design for the Atari 2600 console.",
+      "name": "Carol Shaw",
+      "image": "https://winstemplymouth.org/wp-content/uploads/2018/09/carol-shaw-atari-video-game-designer.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Janese Swanson is an American inventor and software developer. She co-developed the first of the Carmen Sandiego education games, and founded the company Girl Tech. She developed electronic toys, and written books that encourage girls to explore technology and inventions.",
+      "name": "Janese Swanson",
+      "image": "https://invention.si.edu/sites/default/files/innovative-lives-swanson-janese-headshot-square-crop.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Radia Perlman is a software designer and network engineer. She is most famous for her invention of the spanning-tree protocol (STP) which is fundamental to the operation of network bridges. She is currently employed by Dell EMC.",
+      "name": "Radia Perlman",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Radia_Perlman.png/490px-Radia_Perlman.png",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Kay McNulty Mauchly Antonelli was one of the six original programmers of the ENIAC, the first general-purpose electronic digital computer. She was one of about 75 young women mathematicians hired to serve as ‘computers’ for United States government military projects during World War II.",
+      "name": "Kay McNulty Mauchly Antonelli",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/KayMcNulty_maturitn%C3%AD_fotografie.jpg/450px-KayMcNulty_maturitn%C3%AD_fotografie.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Frances Spence was one of the original programmers for the ENIAC (the first digital computer). She is considered to be one of the first computer programmers in history. During the Second World War, when men were fighting in the war, the US army was hiring women to calculate ballistic trajectories. She was one of those women who were behind the scenes doing the calculations.",
+      "name": "Frances Spence",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5f/Frances_Spence.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Jean Bartik was one of the original programmers for the ENIAC computer. She studied mathematics in school then began work at the university of Pennsylvania, first manually calculating ballistics trajectories, then using ENIAC to do so. She and her colleagues developed and codified many of the fundamentals od programming while working on the ENIAC, since it was the first computer of its kind. After her work on ENIAC, Bartik went on to work on BINAC and UNIVAC, and spent time at verity of technical companies as a writer, manager, engineer, and programmer.",
+      "name": "Jean Bartik",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/19/Jean_Bartik.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Frances Elizabeth Holberton was hired by the Moore School of Engineering to work as a 'computor' and was soon chosen to be one of the six women to program the ENIAC.",
+      "name": "Frances Elizabeth Holberton",
+      "image": "https://history.computer.org/pioneers/images/holberton.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Rozsa Peter was a Hungarian mathematician. She is best known for her work with recursion theory. She had first become discouraged on finding that her results from number theory were already proved by Dickson. So, she switched to recursion, where she then became the founder of recursive function theory. In the mid 1950's, she applied recursive function to computers.",
+      "name": "Rozsa Peter",
+      "image": "https://scientificwomen.net/img/profiles/peter-rozsa.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Thelma Estrin was an American computer scientist and engineer who did pioneering work in the fields of expert systems and biomedical engineering. She was one of the first to apply computer technology to healthcare and medical research. She was Professor Emerita in the Department of Computer Science at Los Angeles.",
+      "name": "Thelma Estrin",
+      "image": "https://news.wisc.edu/content/uploads/2019/02/Thelma-Estrin-2.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Evelyn Boyd Granville, who earned her doctorate in Mathematics in 1949 from Yale University, was one of the first African American women to earn a Ph.D. in Mathematics. During her career, she developed computer programs that were used for trajectory analysis in the Mercury Project (the first U.S. manned mission in space) and in the Apollo Project (which sent U.S. astronauts to the moon).",
+      "name": "Evelyn Boyd Granville",
+      "image": "https://3.bp.blogspot.com/-4Gi9NVJwn08/UTqn9TtC7tI/AAAAAAAAAYw/5zKw0MH6dwc/s1600/Granville.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Joyce Currie Little was one of the original programmers at Convair Aircraft Corporation in the Wind Tunnel Division in the late 1950s. She wrote programs to analyze data taken from models (e.g., airplanes, automobiles, radio towers) that were tested in an 8-foot by 12-foot wind tunnel. She wrote her programs in an assembly language, SOAP, which was run on an IBM 650 with punched cards. To ensure accurate and reliable results, a room full of 37 women using Frieden calculators calculated all the checkpoints to confirm the computer output.",
+      "name": "Joyce Currie Little",
+      "image": "https://edsig.org/img/littlej.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Jean E. Sammet was a member of the CODASYL Cobol committee, chairman of the Short Range Subcommittee, which developed all the statements of the language; originator and developer of FORMAC, one of the earliest formula manipulation languages; leader in language systematization and historian of computer languages.",
+      "name": "Jean E. Sammet",
+      "image": "https://www.macitynet.it/wp-content/uploads/2017/06/JeanSammet.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Dr. Erna Schnedier Hoover is an American mathematician notable for inventing a computerized telephone switching method which 'revolutionized modern communication' according to several reports. It prevented system overloads by monitoring call center traffic and prioritize tasks on phone switching systems to enable more robust service during peak calling times. At Bell Laboratories where she worked for over 32 years, Hoover was described as an important pioneer for women in the field of computer technology.",
+      "name": "Dr. Erna Schnedier Hoover",
+      "image": "https://mujeresconciencia.com/app/uploads/2017/06/erna.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Karen Ida Boalth Sparck Jones was born in Huddersfield, Yorkshire, England. Her father was Owen Jones, a lecturer in chemistry, and her mother was Ida Sparck, a Norwegian who moved to Britain during World War II. They left Norway on one of the last boats out after the German invasion in 1940. Sparck Jones was educated at a grammar school in Huddersfield and then Girton College, Cambridge from 1953 to 1956, reading history, with an additional final year in Moral Science (philosophy). She briefly became a schoolteacher, before moving into Computer Science. During her career in Computer Science, she campaigned herd for more women to enter computing. She was married to fellow Cambridge computer scientist Roger Needham until his death in 2003. She died 4 April 2007 at Willingham in Cambridgeshire.",
+      "name": "Karen Sparck Jones ",
+      "image": "https://alchetron.com/cdn/karen-sprck-jones-55632c57-3623-4301-9d78-f3e5f7014cb-resize-750.png",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "During World War II, a large number of female mathematicians were employed as 'computers' to preform calculations necessary to create firing and bombing tables. Alice Burks was one of 75 females 'computers' working at the University of Pennsylvania's Moore School of Engineering. Eventually, the need to preform the calculations more rapidly led to the development of the ENIAC, the world's first electronic digital computer. ",
+      "name": "Alice Burks",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Alice_Burks.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Born in New York City, Goldwasser obtained her B.S. (1979) in mathematics from Carnegie Mellon University, and M.S. (1981) and Ph.D. (1983) in computer science from the University of California, Berkeley. She joined MIT in 1983, and in 1997 became the first holder of the RSA Professorship. She is a member of the Theory of Computation group at MIT Computer Science and Artificial Intelligence Laboratory. Goldwasser's research areas include computational complexity theory, cryptography, and computational number theory. She is the co-inventor of zero-knowledge proofs, which probabilistically and interactively demonstrate the validity of an assertion without conveying any additional knowledge and are a key tool in the design of cryptographic protocols. Her work in complexity theory includes the classification of approximation problems, showing that some problems in NP remain hard even when only an approximate solution is needed.",
+      "name": "Shafrira Goldwasser",
+      "image": "https://team8.vc/wp-content/uploads/2020/05/Shafi_large-scaled-e1590242765132.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Anita Borg was born on January 17, 1949 and was one of the few female computer scientists with a Ph.D. in 1981 when she received her graduate degree from New York University. After attending an industry conference in 1987 she realized how few women attended conferences, so she began Systere, an email list community of mentors providing information and support for women in computing. She also was the founding director of the Institute of Women and Technology. Later renamed in her honor to the Anita Borg Institute for Women and Technology. ",
+      "name": "Anita Borg",
+      "image": "https://3.bp.blogspot.com/-7ZnoXg9Fe7w/TqxojFj819I/AAAAAAAAAH8/E6B5ELZRpW0/w640/Google-And-The-Lucky-Winner-Of-A-10-000-Prize-Is-2.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Frances Elizabeth 'Fran' Allen (born 1932) is an American computer scientist and pioneer in the field of optimizing compliers. Her achievements include seminal work in compilers, code optimization, and parallelization. She also had a role in intelligence work on programming languages and security codes for the National Security Agency.",
+      "name": "Frances E. Allen",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Allen_mg_2528-3750K-b.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Barbara Liskov (born November 7, 1939) is a prominent computer scientist. She is currently the Ford Professor of Engineering in the Electrical Engineering and Computer Science department at the Massachusetts Institute of Technology. She earned her bachelor's degree in mathematics at the University of California, Berkeley in 1961, and became the first woman in the United States to be awarded a Ph.D. in Computer Science, in 1968 from Stanford University. Barbara Liskov has led many significant projects. Including the design and implementation of CLU, the first programming language to support data abstraction, Argus, the first high-level language to support implementation of distributed programs, and Thor, an object-oriented database system.",
+      "name": "Barbara Liskov",
+      "image": "https://cdn.britannica.com/86/129086-004-A93A7277/Barbara-Liskov-Turing-Award-2008.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Marlyn Wescoff Meltzer was one of the six original programmers of ENIAC, the first general-purpose electronic digital computer.",
+      "name": "Marlyn Meltzer",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Marlyn_Meltzer.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Adele Goldstine was an American computer programmer. She wrote the complete technical description for the first electronic digital computer, ENIAC. Through her work programming the computer, she was also an instrumental player in converting the ENIAC from a computer that needed to be reprogrammed each time it was used to one that was able to preform a set of fifty stored instructions.",
+      "name": "Adele Goldstine",
+      "image": "https://pbs.twimg.com/media/DDJu2YWXUAA1o8P.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Ruzwana Bashir co-founded Peek Travel, Inc. and also serves as its Chief Executive Officer.",
+      "name": "Ruzwana Bashir",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ruzwana_Bashir.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Julia Hartz, 34, is co-founder and president of Eventbrite, the San Francisco company that has carved out a niche in the multibillion-dollar ticketing industry by focusing on the democratization of online ticketing.",
+      "name": "Julia Hartz",
+      "image": "https://live.staticflickr.com/5591/15191151635_74550146c0_b.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Marissa Mayer is the current President and CEO of Yahoo started out as a pre-med student at Stanford, but before she graduated, she switched to symbolic systems and specialized in artificial intelligence.",
+      "name": "Marissa Mayer",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Marissa_Mayer_May_2014_%28cropped%29.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Angela Ahrendts left her position as CEO of Burberry in 2014, where she tripled the luxury fashion company's revenue during her tenure, according to Forbes. Ahrendts was hired by Apple, where she remains the company's sole female senior executive.",
+      "name": "Angela Ahrendts",
+      "image": "https://images.macrumors.com/t/zeSrkvEh1gB_vgWeY4mOxMw5Baw=/1600x0/article-new/2015/07/angela_ahrendts_hero.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Susan Wojcicki was Google's first marketing manager in the 90s, before handling two of their largest acquisitions, YouTube and DoubleClick.",
+      "name": "Susan Wojcicki",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Susan_Wojcicki_%2829393944130%29.jpg/412px-Susan_Wojcicki_%2829393944130%29.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Jess Lee was working at Yahoo when she became interested in Polyvore. She wrote a lengthy letter to the company about how they should improve their site, and received a job offer in return. Lee is now considered to be an honorary cofounder and played a large role in Yahoo’s acquisition of the style community.",
+      "name": "Jess Lee",
+      "image": "https://stvp-static-prod.s3.amazonaws.com/uploads/sites/2/2017/10/Lee-Jess_eCorner_Contributor_Cropped-335x335.jpeg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Debbie Sterling created Goldieblox after graduating from Stanford with an engineering degree. Goldieblox is meant to equip girls with special reasoning skills and knowledge of mechanics so when they encounter math and science at school, they can keep up with boys.",
+      "name": "Debbie Sterling",
+      "image": "https://usasciencefestival.org/wp-content/uploads/2017/11/Debbie-Sterling_Headshot_850x850.png",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Isabelle Olsson, who hails from Sweden, joined the Google glass team after being recruited from LinkedIn. She is the lead designer at Google.",
+      "name": "Isabelle Olsson",
+      "image": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/fc/3025398-inline-i-1-how-isabelle-olsson-made-google-glass-beautiful.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Sheryl Sandberg met Facebook founder Mark Zuckerberg at a Christmas party in 2007, and he hired her away from Google, where she was an executive, the following March.",
+      "name": "Sheryl Sandberg",
+      "image": "https://live.staticflickr.com/8594/15722250043_4375506443_b.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Zakin and Weisberg, the founders of the newsletter The Skimm. Met while studying abroad in Rome. Zakin and Weisberg have found a huge following for their millennial women-focused daily email newsletter. Covering everything from the presidential election to North Korean nuclear developments in a cheeky, irreverent voice, The Skimm has amassed more than 3.5 million subscribers, and recently raised $8 million in funding and lunched its first product extension, an app that can integrate into your calendar.",
+      "name": "Carly Zakin and Danielle Weisberg",
+      "image": "https://techcrunch.com/wp-content/uploads/2016/04/theskimm-founders.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "",
+      "name": "",
+      "image": "",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "",
+      "name": "",
+      "image": "",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "",
+      "name": "",
+      "image": "",
+      "website": "https://www.google.com/"
     }
   ]
 }  
