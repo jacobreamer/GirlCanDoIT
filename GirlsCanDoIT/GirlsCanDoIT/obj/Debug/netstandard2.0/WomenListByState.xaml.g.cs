@@ -8,24 +8,28 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("GirlsCanDoIT.Subpages.WomenInFieldPage.xaml", "Subpages/WomenInFieldPage.xaml", typeof(global::GirlsCanDoIT.Subpages.WomenInFieldPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("GirlsCanDoIT.WomenListByState.xaml", "WomenListByState.xaml", typeof(global::GirlsCanDoIT.WomenListByState))]
 
-namespace GirlsCanDoIT.Subpages {
+namespace GirlsCanDoIT {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Subpages\\WomenInFieldPage.xaml")]
-    public partial class WomenInFieldPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("WomenListByState.xaml")]
+    public partial class WomenListByState : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ScrollView MainScroll;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Label Title_Text;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Label Text_Label;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(WomenInFieldPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(WomenListByState));
             MainScroll = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ScrollView>(this, "MainScroll");
+            Title_Text = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "Title_Text");
             Text_Label = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "Text_Label");
         }
     }

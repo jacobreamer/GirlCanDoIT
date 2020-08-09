@@ -197,7 +197,6 @@ C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
 C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
-C:\Users\safaa\Desktop\Project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Subpages\WomenInFieldPage.xaml.g.cs
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Subpages\WomenInFieldPage.xaml.g.cs
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.csproj.CoreCompileInputs.cache
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\XamlC.stamp
@@ -205,3 +204,5 @@ D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Top50WomenPage.xam
 D:\august2\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\CollegeStates.xaml.g.cs
 C:\Users\safaa\Desktop\project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\CollegeStates.xaml.g.cs
 C:\Users\safaa\Desktop\project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\Top50WomenPage.xaml.g.cs
+C:\Users\safaa\Desktop\project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\WomenInFieldPage.xaml.g.cs
+C:\Users\safaa\Desktop\project\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\WomenListByState.xaml.g.cs

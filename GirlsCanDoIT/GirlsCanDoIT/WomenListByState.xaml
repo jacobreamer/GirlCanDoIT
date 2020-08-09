@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:local="clr-namespace:GirlsCanDoIT"
-             x:Class="GirlsCanDoIT.Subpages.WomenInFieldPage"
+             x:Class="GirlsCanDoIT.WomenListByState"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
     <ContentPage.Content>
         <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
@@ -15,7 +15,7 @@
                HeightRequest="100" 
                Margin="10"
                BackgroundColor="Transparent"/>
-                <Label Text="Women in The Field" 
+                <Label x:Name="Title_Text" Text="Women in The Field" 
                TextColor="White" 
                HorizontalOptions="Center" 
                FontSize="35"/>

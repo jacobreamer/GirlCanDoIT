@@ -14,7 +14,7 @@ namespace GirlsCanDoIT
 
         private void WomenInFieldButton_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new Subpages.WomenInFieldPage());
+            Navigation.PushAsync(new WomenInFieldPage());
         }
 
         private void Top50WomenButton_Clicked(object sender, System.EventArgs e)

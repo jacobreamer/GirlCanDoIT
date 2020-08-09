@@ -212,21 +212,93 @@
       "website": "https://www.google.com/"
     },
     {
-      "description": "",
-      "name": "",
-      "image": "",
+      "description": "Whitney Wolfe is a co-founder at Tinder where she left for personal reasons where she then founded Bumble.",
+      "name": "Whitney Wolfe",
+      "image": "https://techcrunch.com/wp-content/uploads/2018/06/whitneyheadshot.jpg",
       "website": "https://www.google.com/"
     },
     {
-      "description": "",
-      "name": "",
-      "image": "",
+      "description": "Judy Malloy is a self-taught computer programmer, conceptual artist, and single mom written and programmed the first hypertext novel, titled Uncle Roger. In it, the reader clicks through fragments of the story in whatever order they choose, which causes narrative to change along the way. Malloy invented a new database system to tell her story, and the experience of reading the book was completely groundbreaking for her time.",
+      "name": "Judy Malloy",
+      "image": "https://digitalstudies.camden.rutgers.edu/wp-content/uploads/judy_6_2016.png",
       "website": "https://www.google.com/"
     },
     {
-      "description": "",
-      "name": "",
-      "image": "",
+      "description": "Hedy Lamarr certainly did not 'look like what you think a computer person' would look like. She was a movie star and beauty icon famous for a controversial nude scene (in 1933's Ecstasy), but while people might recognize her face, they are usually not familiar with her invention of spread spectrum technology. By manipulating radio frequencies at irregular intervals between transmission and reception, the invention formed an unbreakable code to prevent classified messages from being intercepted by enemy personnel.",
+      "name": "Hedy Lamarr",
+      "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fshivaunefield%2Ffiles%2F2018%2F02%2FHedy_Alfred-Eisenstaedt-smaller-1200x1374.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Kimberly Bryant has not been erased yet, struggling for recognition in the present. Bryant is the founder of Black Girls Code, an organization that seeks to introduce girls from underrepresented communities to computer science. The diversity problem is plain; in fact, black women are only 2 percent of the United States' science and engineering workforce, while white men comprise 51 percent. Of Google's 17 percent female tech force, less than 1 percent are black. Bryant's work brings back to mind Kathy Kleiman's mission at the ENIAC Programmers Project. According to ReadWrite's Selena Larson, who is also a contributor at the Daily Dot, \"(Kleiman's) motivation, isn't just correcting the record of the past.\" Larson writes, \"It's building a future that looks different from a history that's been airbrushed to look more male then it really was.\"",
+      "name": "Kimberly Bryant",
+      "image": "https://bzzsxz6liz-flywheel.netdna-ssl.com/wp-content/uploads/2018/08/DfqIeo_WsAAvwbM-300x300.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Did you know she led the team over at Apple to redesign the Mac during the 1980's? Susan Kare was responsible for many of the fonts and icons used on the MAC. After she left Apple, Susan Kare continued to go on to create graphics we all recognize today like the card deck for Microsoft's Solitaire game, PayPal, Facebook, and Digg, among others.",
+      "name": "Susan Kare",
+      "image": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/fc/3038976-inline-i-1-what-every-young-designer-should-know-from-legendary-apple-designer-susan-kare.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Angela Byron is a software developer and evangelist for the Open Source and Drupa Movements. She led and encouraged women to become involved in the open source community. She was also the first woman to be featured on the cover of Linux Journal in April 2011. She is the director of Community Development for Acquia, a software company that provides products and services for Drupal.",
+      "name": "Angela Byron",
+      "image": "https://www.drupal.org/files/user-pictures/picture-24967-1400198420.png",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Mary Lou Jepsen is the founder and CEO of the non-profit, open source One Laptop Per Child, a global program to provide children with laptops for $100. In 1989, she co-created the world's first holographic video system and she is the founder of Pixel Qi, which builds low-power displays for mobile devices.",
+      "name": "Mary Lou Jepsen",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mary_Lou_Jepsen_selfie_October_6_2018.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Janie Tsao is a Taiwanese immigrant and programmer who cofounded Linksys with her husband from their garage. Linksys later became the leader in wireless and networking hardware for retain and e-commerce. In April 2003, Cisco Systems acquired Linksys establishing it as an opening division with Janie and her husband in executive management roles. Then in 2004, the Tsao were named 'Entrepreneur of the Year' by Inc. Magazine.",
+      "name": "Janie Tsao",
+      "image": "https://womenworthwatching.com/wp-content/uploads/janie-tsao-2004.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Not only is Amanda Wixted responsible for creating addictive games like FarmVille and Pac-Man for iPhone, but she is also using her talent to teach kids to code, through games developed through her Meteor Grove Software company. She is also developing a revolutionary social game called Seed, which facilitates microlending from developed countries to countries in need, all through smartphones.",
+      "name": "Amanda Wixted",
+      "image": "https://techfemme.files.wordpress.com/2010/10/07_shopped_purple.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Lisa Bettany is the brain behind Camera+, iTunes' top-ranked camera app. Her app makes your pictures sharper and more enhanced, and get rid of annoying flaws, like red eyes. Selling for 99 cents, it has generated over $2 million.",
+      "name": "Lisa Bettany",
+      "image": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/fc/3012442-poster-1920-177-fast-talk-from-point-to-shoot-lessons-learned.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Roberta William once said, \"who says gaming is just for boys?\" Williams is the mastermind behind some of the most popular PC gaming of the 80's and 90's including the King's Quest series, Mystery House, and Phantasmagoria.",
+      "name": "Roberta William",
+      "image": "https://www.quotationof.com/images/roberta-williams-6.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Margaret Hamilton, who wrote crucial software for the Apollo mission. Although she originally had simple plans of putting her husband through school as an MIT programmer, she would actually end up playing a big role in history. Hamilton often brought her 4-yaer-old to the lab, working meticulously to ensure the moon mission was seamless. One day her child was playing with the command module, triggering a system error. This prompted Hamilton to add backup code just in case the astronauts accidently made the same mistake. Turns out that extra step would ultimately save the Apollo mission. When the astronauts did in fact commit the same error, the mission's success was owned to Hamilton's work.",
+      "name": "Margaret Hamilton",
+      "image": "https://solarsystem.nasa.gov/system/people/detail_images/320_Margaret_Hamilton.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Ayah Bdeir is the founder and CEO of littleBits, an open source library of modular electronics that snap together with magnets. Bdeir is considered one of the leaders of the Marker Movement and Open hardware Movement and a proponent of an open Internet of Things. She was named to Fast Company's list of 'Most Creative People in Business' in 2013.",
+      "name": "Ayah Bdeir",
+      "image": "https://media.bizj.us/view/img/4696961/ayah-bdeir-headshot-2*750xx3600-4814-0-309.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Leah Busque is an American entrepreneur who founded taskRabbit, an online and mobile marketplace that allows users to outsource small jobs and tasks to others in their neighborhood.",
+      "name": "Leah Busque",
+      "image": "https://podcastnotes.org/wp-content/uploads/2019/09/leah.jpg",
+      "website": "https://www.google.com/"
+    },
+    {
+      "description": "Shaherose is perhaps best known as the founder of Women 2.0, a media company offering content, community, and conferences for aspiring and current women innovators in technology. She has led its growth to include tens of thousands of participants, hosting monthly educational and networking workshops and engaging entrepreneurs and inventors from top venture Capital firms and Angel circles. Over the years, she has seen over 300 early stage startups through Women 2.0 and has a strong interest in supporting the entrepreneurial ecosystem.",
+      "name": "Shaherose Charania",
+      "image": "https://www.speakerbookingagency.com/storage/celebrities/1547512710_shaherose-charania.jpg",
       "website": "https://www.google.com/"
     }
   ]

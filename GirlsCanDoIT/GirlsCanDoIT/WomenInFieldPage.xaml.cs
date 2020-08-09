@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace GirlsCanDoIT.Subpages
+namespace GirlsCanDoIT
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class WomenInFieldPage : ContentPage
@@ -18,7 +18,13 @@ namespace GirlsCanDoIT.Subpages
         {
             InitializeComponent();
 
-            Assembly asm = Assembly.GetExecutingAssembly();
+
+            foreach (string allstates in Classes.States.StatesArray)
+            {
+                statePicker.Items.Add(allstates);
+            }
+
+            /*Assembly asm = Assembly.GetExecutingAssembly();
             StreamReader reader = new StreamReader(asm.GetManifestResourceStream("GirlsCanDoIT.DataFiles.WomenInField.txt"));
 
             List<string[]> WomenList = new List<string[]>();
@@ -37,12 +43,19 @@ namespace GirlsCanDoIT.Subpages
 
                 count = +1;
 
-                
+
             }
             Text_Label.Text = Woman[0] +" and "+ Woman[1];
-            
-            //Text_Label.Text = reader.ReadLine();
 
+            //Text_Label.Text = reader.ReadLine();*/
+
+        }
+
+
+        private void statePicker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var state = statePicker.Items[statePicker.SelectedIndex];
+            Navigation.PushAsync(new WomenListByState(state));
         }
 
 

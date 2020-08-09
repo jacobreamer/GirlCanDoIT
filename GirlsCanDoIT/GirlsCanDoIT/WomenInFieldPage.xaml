@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:GirlsCanDoIT"
+             x:Class="GirlsCanDoIT.WomenInFieldPage"
+             BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
+    <ContentPage.Content>
+        <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+            <StackLayout Margin="20">
+                <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.woman.png}" 
+                       HeightRequest="100" 
+                       Margin="10"
+                       BackgroundColor="Transparent"/>
+                
+                <Label Text="Women in The Field" 
+                       TextColor="White" 
+                       HorizontalOptions="Center" 
+                       FontSize="35"/>
+
+                <Label x:Name="Text_Label" 
+                       HorizontalOptions="Center"   
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       TextColor="White"
+                       Margin="50,10,50,-10"
+                       FontSize="20"/>
+
+                <Picker x:Name="statePicker"
+                        Title="Select a State"
+                        TitleColor="White"
+                        FontSize="20"
+                        TextColor="White"
+                        Margin="110,30,100,0"
+                        BackgroundColor="Transparent"
+                        SelectedIndexChanged="statePicker_SelectedIndexChanged" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

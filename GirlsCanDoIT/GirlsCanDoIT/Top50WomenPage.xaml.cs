@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using Xamarin.Forms;
 using GirlsCanDoIT;
 using System.Windows.Input;
+using System.Security.Cryptography.X509Certificates;
 
 namespace GirlsCanDoIT
 {
@@ -32,12 +33,11 @@ namespace GirlsCanDoIT
             {
                 var jsonString = reader.ReadToEnd();
 
-                //Converting JSON Array Objects into generic list  
+                //Converting JSON Array Objects into generic list
                 ObjWomenList = JsonConvert.DeserializeObject<WomenList>(jsonString);
             }
-            //Binding listview with json string   
+            //Binding listview with json string
             listviewWomen.ItemsSource = ObjWomenList.women;
         }
     }
-
 }
