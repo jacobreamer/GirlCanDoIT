@@ -1117,24 +1117,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\safaa\\.nuget\\packages\\": {},
+    "C:\\Users\\Jacob Reamer\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\safaa\\Desktop\\project\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+      "projectUniqueName": "D:\\august9th\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
       "projectName": "GirlsCanDoIT.iOS",
-      "projectPath": "C:\\Users\\safaa\\Desktop\\project\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
-      "packagesPath": "C:\\Users\\safaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\safaa\\Desktop\\project\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\obj\\",
+      "projectPath": "D:\\august9th\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+      "packagesPath": "C:\\Users\\Jacob Reamer\\.nuget\\packages\\",
+      "outputPath": "D:\\august9th\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\safaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jacob Reamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1148,8 +1148,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\safaa\\Desktop\\project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
-              "projectPath": "C:\\Users\\safaa\\Desktop\\project\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
+            "D:\\august9th\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj": {
+              "projectPath": "D:\\august9th\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj"
             }
           }
         }

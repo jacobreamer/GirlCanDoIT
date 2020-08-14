@@ -15,7 +15,7 @@
                        HeightRequest="100" 
                        Margin="10"
                        BackgroundColor="Transparent"/>
-                
+
                 <Label Text="Women in The Field" 
                        TextColor="White" 
                        HorizontalOptions="Center" 

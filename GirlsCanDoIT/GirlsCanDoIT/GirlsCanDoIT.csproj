@@ -62,7 +62,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AcademicsPage.xaml">
+    <EmbeddedResource Update="View\AcademicsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CareersPage.xaml">
