@@ -26,11 +26,13 @@
     <None Remove="Images\woman.png" />
     <None Remove="Images\_acm.jpg" />
     <None Remove="Michigan.json" />
+    <None Remove="TopWomenField.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Images\michigan_final.png" />
     <EmbeddedResource Include="Michigan.json" />
+    <EmbeddedResource Include="TopWomenField.json" />
     <EmbeddedResource Include="women.json" />
     <EmbeddedResource Include="Images\acm.jpg" />
     <EmbeddedResource Include="Images\acm_women.jpg" />
@@ -75,6 +77,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Top50WomenPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="WomenField.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="WomenInFieldPage.xaml">

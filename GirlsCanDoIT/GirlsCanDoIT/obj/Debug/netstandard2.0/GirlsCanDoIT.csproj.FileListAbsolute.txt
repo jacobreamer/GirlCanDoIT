@@ -229,3 +229,4 @@ D:\august9th\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.dll
 D:\august9th\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\ref\GirlsCanDoIT.dll
 D:\august9th\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\GirlsCanDoIT.pdb
 D:\august9th\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\View\AcademicsPage.xaml.g.cs
+D:\august9th\GirlsCanDoIT\GirlsCanDoIT\obj\Debug\netstandard2.0\WomenField.xaml.g.cs

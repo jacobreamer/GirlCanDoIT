@@ -21,7 +21,7 @@
                FontSize="35"/>
 
 
-        <Label Text="There are a number of women that play important roles in major corporation's technoolgy departments" 
+        <Label Text="There are a number of women that play important roles in major corporation's technology departments" 
                    HorizontalOptions="Center"   
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"

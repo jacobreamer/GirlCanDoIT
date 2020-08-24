@@ -1,0 +1,80 @@
+{
+  "womenfield": [
+
+    {
+      "description": "The state of Michigan is full of opportunities for women to excel in the I.T. world.",
+      "state": "Michigan",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Seal_of_Michigan_Governor.svg/395px-Seal_of_Michigan_Governor.svg.png",
+      "website": "https://www.google.com/"
+    },
+
+    {
+      "description": "Rhita is the Director and Software Project Management Specialist of Harman International Industries Inc. in Novi, MI. She has a Bachelor of Science degree in Computer Engineering from the University of Michigan ",
+      "name": "Rhita Boufelliga",
+      "image": "https://s3-prod.crainsdetroit.com/styles/width_375/s3/Rhita%20Boufelliga.jpg",
+      "website": "https://www.google.com/"
+
+    },
+
+    {
+      "description": "Diana is CIO and Interim CEO at Oakland Community Health Network in Troy, MI. She has a Master of Science in Business Information Technology from Walsh College.",
+      "name": "Diana Bundschuh",
+      "image": "https://s3-prod.crainsdetroit.com/styles/width_375/s3/Diana%20Bundschuh.jpg",
+      "website": "https://www.google.com/"
+    },
+
+    {
+      "description": "Amy is CEO of inerTrain Inc. in Kalamazoo, MI. She has a Bachelor of Arts in Psychology and Education with minors in Computer Science and Math from Kalamazoo College. ",
+      "name": "Amy Courter",
+      "image": "https://s3-prod.crainsdetroit.com/styles/width_375/s3/Amy%20Courter.jpg",
+      "website": "https://www.google.com/"
+    },
+
+    {
+      "description": "Beth is Vice President and Global Process Leadership of Stefanini Inc., located in Southfield, MI. She has a Master of Science in Computer Science from Ball State University. ",
+      "name": "Beth Gebrai",
+      "image": "https://s3-prod.crainsdetroit.com/styles/width_375/s3/Beth%20Gebrai.jpg",
+      "website": "https://www.google.com/"
+    },
+
+    {
+      "description": "Stacy is CEO of Executive Director and CIO, Global Information Technology, of General Motors Co. in Detroit, MI. She has a Master of Science in Information Technology from Carnegie Mellon University. ",
+      "name": "Stacy Lynett",
+      "image": "https://s3-prod.crainsdetroit.com/styles/width_375/s3/Stacy%20Lynett.jpg",
+      "website": "https://www.google.com/"
+    },
+
+    {
+      "description": "Wendye is Managing Director of Information Technology at The Kresge Foundation in Troy, MI. She has a Doctorate of Philosophy in Instructional Technology from Wayne State University. ",
+      "name": "Wendye Mingo",
+      "image": "https://s3-prod.crainsdetroit.com/styles/width_375/s3/Wendye%20Mingo.jpg",
+      "website": "https://www.google.com/"
+    },
+
+    {
+      "description": "The state of Illinois is a great place for women to excel in the I.T. world.",
+      "state": "Illinois",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Illinois_state_seal.png",
+      "website": "https://www.google.com/"
+    },
+
+    {
+      "description": "Stacy is CEO of Executive Director and CIO, Global Information Technology, of General Motors Co. in Detroit, MI. She has a Master of Science in Information Technology from Carnegie Mellon University. ",
+      "name": "Stacy Lynett",
+      "image": "https://s3-prod.crainsdetroit.com/styles/width_375/s3/Stacy%20Lynett.jpg",
+      "website": "https://www.google.com/"
+    },
+
+    {
+      "description": "Stacy is CEO of Executive Director and CIO, Global Information Technology, of General Motors Co. in Detroit, MI. She has a Master of Science in Information Technology from Carnegie Mellon University. ",
+      "name": "Stacy Lynett",
+      "image": "https://s3-prod.crainsdetroit.com/styles/width_375/s3/Stacy%20Lynett.jpg",
+      "website": "https://www.google.com/"
+    }
+
+  ]
+
+  
+    
+  
+}  
