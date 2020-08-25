@@ -14,17 +14,6 @@ namespace GirlsCanDoIT
         {
             InitializeComponent();
             BindingContext = this;
-
-            foreach (string allstates in States.StatesArray)
-            {
-                statePicker.Items.Add(allstates);
-            }
-        }
-
-        private void statePicker_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            var state = statePicker.Items[statePicker.SelectedIndex];
-            DisplayAlert(state, "Selected value", "OK");
         }
 
         public void facebookButton_Clicked(object sender, EventArgs e)

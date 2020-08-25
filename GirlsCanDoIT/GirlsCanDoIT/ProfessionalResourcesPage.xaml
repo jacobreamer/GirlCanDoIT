@@ -8,46 +8,23 @@
              x:Class="GirlsCanDoIT.ProfessionalResourcesPage"
              BackgroundImageSource="{local:ImageResourceExtention GirlsCanDoIT.Images.bg2.jpg}">
 
-    <ScrollView x:Name="MainScroll" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-        <StackLayout
-
-        Margin="20">
+    <ScrollView x:Name="MainScroll" 
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand">
+        
+        <StackLayout Margin="20">
+            
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.info.png}"
-                HeightRequest="70"
-                Margin="11" />
+                   HeightRequest="70"
+                   Margin="11" />
 
             <Label Text="Professional Resources"
-               TextColor="White"
-               HorizontalOptions="Center"
-               FontSize="Large"
-               Margin="0,0,0,50" />
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   FontSize="Large"
+                   Margin="0,0,0,50" />
 
-            <Label Text="Many states have organizations that are involved in women pursuing a career in I.T."
-               HorizontalOptions="Center"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center"
-               FontAttributes="Bold"
-               TextColor="White"
-               Margin="70,-30,70,-10"
-               FontSize="20" />
-
-            <Picker x:Name="statePicker"
-                        Title="Select a State"
-                        TitleColor="White"
-                        FontSize="20"
-                        TextColor="White"
-                        Margin="110,30,100,0"
-                        BackgroundColor="Transparent"
-                        SelectedIndexChanged="statePicker_SelectedIndexChanged" />
-
-            <Button Text="Learn More"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"
-                    Margin="30"
-                    CornerRadius="15"
-                    WidthRequest="120" />
-
-            <Label Text="There are also national resources for you to view, such as the links listed below"
+            <Label Text="There are many organizations involved in women pursuing a career in I.T., such as the links listed below"
                    HorizontalOptions="Center"
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
@@ -56,131 +33,112 @@
                    Margin="70,0,70,0"
                    FontSize="20" />
 
-            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="White" Margin="0,15,0,0" />
+            <BoxView HorizontalOptions="FillAndExpand" 
+                     HeightRequest="2" 
+                     Color="White" 
+                     Margin="0,15,0,0" />
 
-            <Label
-
-                   HorizontalTextAlignment="Center"
+            <Label HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    Margin="0,50,0,20">
 
                 <Label.FormattedText>
-
                     <FormattedString>
                         <Span Text=" " />
                         <local:HyperlinkSpan Text="Aspirations in Computing"
-
-                                         Url="https://www.aspirations.org/" />
+                                             Url="https://www.aspirations.org/" />
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.aicpro.png}"
-
                     HeightRequest="150"
                     WidthRequest="300"
                     VerticalOptions="Center"
                     HorizontalOptions="Center">
                 
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer
-                 Command="{Binding ClickCommand}"
+                    <TapGestureRecognizer Command="{Binding ClickCommand}"
                                           CommandParameter="https://www.aspirations.org/" />
                 </Image.GestureRecognizers>
             </Image>
 
-            <Label
-
-                   HorizontalTextAlignment="Center"
+            <Label HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    Margin="0,50,0,20">
 
                 <Label.FormattedText>
-
                     <FormattedString>
                         <Span Text=" " />
                         <local:HyperlinkSpan Text="Association for Computer Machinery"
-
-                                         Url="https://www.acm.org/" />
+                                             Url="https://www.acm.org/" />
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm.jpg}"
-
-                    HeightRequest="150"
+                   HeightRequest="150"
                    WidthRequest="300"
-
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center">
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center">
+                
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer
-                 Command="{Binding ClickCommand}"
+                    <TapGestureRecognizer Command="{Binding ClickCommand}"
                                           CommandParameter="https://www.acm.org/" />
                 </Image.GestureRecognizers>
             </Image>
 
-            <Label
-
-                   HorizontalTextAlignment="Center"
+            <Label HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    Margin="0,50,0,20">
 
                 <Label.FormattedText>
-
                     <FormattedString>
                         <Span Text=" " />
                         <local:HyperlinkSpan Text="National Center for Women and Information Technology"
-
-                                         Url="https://www.ncwit.org/" />
+                                             Url="https://www.ncwit.org/" />
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.ncwits.png}"
-
-                    HeightRequest="150"
-                    WidthRequest="300"
-
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center">
+                   HeightRequest="150"
+                   WidthRequest="300"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center">
+                
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer
-                 Command="{Binding ClickCommand}"
+                    <TapGestureRecognizer Command="{Binding ClickCommand}"
                                           CommandParameter="https://www.ncwit.org/" />
                 </Image.GestureRecognizers>
             </Image>
 
-            <Label
-
-                   HorizontalTextAlignment="Center"
+            <Label HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"
                    Margin="0,50,0,20">
 
                 <Label.FormattedText>
-
                     <FormattedString>
                         <Span Text=" " />
                         <local:HyperlinkSpan Text="Association for Computing Machinery's Council on Women in Computing"
-
-                                         Url="https://women.acm.org/" />
+                                             Url="https://women.acm.org/" />
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.acm_women.jpg}"
-
                     HeightRequest="150"
                     WidthRequest="300"
                     Margin="0,0,0,15"
                     VerticalOptions="Center"
                     HorizontalOptions="Center">
+                
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer
-                 Command="{Binding ClickCommand}"
+                    <TapGestureRecognizer Command="{Binding ClickCommand}"
                                           CommandParameter="https://women.acm.org/" />
                 </Image.GestureRecognizers>
             </Image>
+            
         </StackLayout>
     </ScrollView>
 </ContentPage>

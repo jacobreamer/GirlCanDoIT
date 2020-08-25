@@ -9,7 +9,6 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace GirlsCanDoIT
 {
-   
     public partial class WomenField : ContentPage
     {
         public WomenField()
@@ -26,7 +25,7 @@ namespace GirlsCanDoIT
 
         void GetJsonData()
         {
-            string jsonFileName = "TopWomenField.json";
+            string jsonFileName = "JsonFiles.TopWomenField.json";
             WomenListField ObjWomenListField = new WomenListField();
             var assembly = typeof(WomenField).GetTypeInfo().Assembly;
             Stream streams = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{jsonFileName}");

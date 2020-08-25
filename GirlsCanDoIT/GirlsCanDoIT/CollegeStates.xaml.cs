@@ -16,10 +16,5 @@ namespace GirlsCanDoIT
         {
             InitializeComponent();
         }
-
-
-       
-
-
     }
 }

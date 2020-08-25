@@ -25,7 +25,7 @@ namespace GirlsCanDoIT
         
         void GetJsonData()
         {
-            string jsonFileName = "women.json";
+            string jsonFileName = "JsonFiles.women.json";
             WomenList ObjWomenList = new WomenList();
             var assembly = typeof(Top50WomenPage).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{jsonFileName}");

@@ -74,30 +74,30 @@
             </Grid.ColumnDefinitions>
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.facebook3.png}"
-                       Margin="0,10,-175,0"
-                       Grid.Column="0">
+                   Margin="0,10,-175,0"
+                   Grid.Column="0">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding ClickCommand}"
-                                              CommandParameter="https://www.facebook.com/pages/category/Artist/Girls-Can-Do-It-1521880821462566/" />
+                                          CommandParameter="https://www.facebook.com/pages/category/Artist/Girls-Can-Do-It-1521880821462566/" />
                 </Image.GestureRecognizers>
             </Image>
 
             <BoxView Grid.Column="1"
-                 Margin="0,10,0,0"
-                 VerticalOptions="Fill"
-                 HorizontalOptions="Center"
-                 WidthRequest="1"
-                 Color="White" />
+                     Margin="0,10,0,0"
+                     VerticalOptions="Fill"
+                     HorizontalOptions="Center"
+                     WidthRequest="1"
+                     Color="White" />
 
             <Image Source="{local:ImageResourceExtention GirlsCanDoIT.Images.twitter.png}"
-                       Margin="-175,10,0,0"
-                       Grid.Column="2"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center">
+                   Margin="-175,10,0,0"
+                   Grid.Column="2"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center">
 
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding ClickCommand}"
-                                              CommandParameter="https://www.twitter.com" />
+                                          CommandParameter="https://www.twitter.com" />
                 </Image.GestureRecognizers>
             </Image>
         </Grid>

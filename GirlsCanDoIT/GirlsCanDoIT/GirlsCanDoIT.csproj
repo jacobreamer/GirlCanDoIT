@@ -11,6 +11,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DataFiles\**" />
+    <Compile Remove="Subpages\**" />
+    <EmbeddedResource Remove="DataFiles\**" />
+    <EmbeddedResource Remove="Subpages\**" />
+    <None Remove="DataFiles\**" />
+    <None Remove="Subpages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Images\acm.jpg" />
     <None Remove="Images\acm_women.jpg" />
     <None Remove="Images\aicpro.png" />
@@ -25,15 +34,14 @@
     <None Remove="Images\twitter.png" />
     <None Remove="Images\woman.png" />
     <None Remove="Images\_acm.jpg" />
-    <None Remove="Michigan.json" />
     <None Remove="TopWomenField.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Images\michigan_final.png" />
-    <EmbeddedResource Include="Michigan.json" />
-    <EmbeddedResource Include="TopWomenField.json" />
-    <EmbeddedResource Include="women.json" />
+    <EmbeddedResource Include="JsonFiles\Michigan.json" />
+    <EmbeddedResource Include="JsonFiles\TopWomenField.json" />
+    <EmbeddedResource Include="JsonFiles\women.json" />
     <EmbeddedResource Include="Images\acm.jpg" />
     <EmbeddedResource Include="Images\acm_women.jpg" />
     <EmbeddedResource Include="Images\aicpro.png" />
@@ -64,7 +72,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="View\AcademicsPage.xaml">
+    <EmbeddedResource Update="AcademicsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CareersPage.xaml">
@@ -82,22 +90,11 @@
     <EmbeddedResource Update="WomenField.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="WomenInFieldPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="View\CareerView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="WomenInITPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="WomenListByState.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DataFiles\" />
-    <Folder Include="Subpages\" />
   </ItemGroup>
 </Project>
