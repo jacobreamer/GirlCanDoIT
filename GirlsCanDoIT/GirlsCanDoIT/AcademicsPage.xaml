@@ -21,7 +21,7 @@
                 <Label Text="Academics"
                        TextColor="White"
                        HorizontalOptions="Center"
-                       FontSize="Large"
+                       FontSize="30"
                        FontAttributes="Bold"
                        Margin="0,0,0,50" />
 
@@ -31,18 +31,25 @@
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center" />
 
-                <Label Text="Select a College From The List Below" FontSize="25" HorizontalTextAlignment="Center"
+                <Label Text="Select a College From The List Below" FontSize="20" HorizontalTextAlignment="Center"
                        FontAttributes="Bold" TextColor="White"
                        HorizontalOptions="Center" />
+                
+                <BoxView HorizontalOptions="Center"
+                                             HeightRequest="2"
+                                             Color="White" 
+                                             Margin="0,15,0,0" />
+
 
                 <Picker Title="Michigan Colleges" 
                         TitleColor="White"
+                        HorizontalOptions="Center"
                         ItemsSource="{Binding Colleges}" 
                         ItemDisplayBinding="{Binding Name}"
                         SelectedItem="{Binding SelectedCollege}" />
 
                 <Label Text="{Binding SelectedCollege.Name}" 
-                       HorizontalOptions="Center" 
+                      HorizontalTextAlignment="Center"
                        TextColor="White" 
                        FontSize="25" 
                        Margin="0,0,0,0"
@@ -59,12 +66,21 @@
                        HeightRequest="400" WidthRequest="400"
                        HorizontalOptions="CenterAndExpand" />
 
+                <Label Text="I.T. Degrees Offered" FontSize="22" HorizontalTextAlignment="Center"
+                       FontAttributes="Bold" TextColor="White"
+                       HorizontalOptions="Center" />
+
+                <BoxView HorizontalOptions="Center"
+                                             HeightRequest="2"
+                                             Color="White" 
+                                             Margin="0,15,0,15" />
+
                 <Label Text="{Binding SelectedCollege.Details}" 
                        TextColor="White" 
                        HorizontalOptions="Center" 
                        FontSize="20" 
                        HorizontalTextAlignment="Center" 
-                       Margin="0,-30,0,20"
+                       Margin="0,0,0,20"
                        Style="{DynamicResource BodyStyle}" />
 
             </StackLayout>
