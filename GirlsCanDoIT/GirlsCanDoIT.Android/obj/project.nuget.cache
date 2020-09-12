@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MDUgr5uJxuP5OTckNetqQz9GEFPSc+gHgKpvDYtSVxV5/w+0X3G5AZ3jGUsgByqLI1zpevh02pA8rocCtEUmqw==",
+  "dgSpecHash": "7vXuy4qmCFO9XqI31kB4lut2Z7MKb5GKkJ+eppZG2iCRNL0uAIF/ZfjM7O1sRthuEB/tgvWDSqr0cORKlH5pvA==",
   "success": true,
-  "projectFilePath": "D:\\26august\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
+  "projectFilePath": "D:\\GirlsCanDoITFinalDraft\\GirlsCanDoIT\\GirlsCanDoIT.Android\\GirlsCanDoIT.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jacob Reamer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Jacob Reamer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

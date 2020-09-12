@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+7HXtV5wlZu7a5TALYxemoVWFiZbOVzEV4Nei/uN4lpWaZ/GsqByvS2Cb8hEydLBxjBgiJQPGJuhq6asm1+ISg==",
+  "dgSpecHash": "Istan6qL+qTmi6vT+cZm8XxJJ4k5KCGIDEac2f7u2J5GKjNIxLEPzjvuQ7PIQa8bxiZrSHwS+f69cvPh3cqNeQ==",
   "success": true,
-  "projectFilePath": "D:\\26august\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
+  "projectFilePath": "D:\\GirlsCanDoITFinalDraft\\GirlsCanDoIT\\GirlsCanDoIT.iOS\\GirlsCanDoIT.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jacob Reamer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Jacob Reamer\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

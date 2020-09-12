@@ -652,11 +652,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\26august\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+      "projectUniqueName": "D:\\GirlsCanDoITFinalDraft\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
       "projectName": "GirlsCanDoIT",
-      "projectPath": "D:\\26august\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
+      "projectPath": "D:\\GirlsCanDoITFinalDraft\\GirlsCanDoIT\\GirlsCanDoIT\\GirlsCanDoIT.csproj",
       "packagesPath": "C:\\Users\\Jacob Reamer\\.nuget\\packages\\",
-      "outputPath": "D:\\26august\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
+      "outputPath": "D:\\GirlsCanDoITFinalDraft\\GirlsCanDoIT\\GirlsCanDoIT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
